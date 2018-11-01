@@ -1,0 +1,173 @@
+html,body{
+             font-family: 'Open Sans', sans-serif;
+             color: #333333;
+             background: linen;
+        }
+
+        h2 {
+
+        	font-size: 50px;
+        }
+		circle {
+		  fill: rgb(31, 119, 180);
+		  fill-opacity: .25;
+		  stroke: rgb(31, 119, 180);
+		  stroke-width: 1px;
+		}
+		rect{
+			cursor: pointer;
+		}
+		#layoutGroup1{
+			display: block;
+		}
+		#layoutGroup2 , #layoutGroup3{
+			display:none;
+		}
+		#userButton{
+			background-color: #bbb;
+  			padding: .5em;
+ 			 border-radius: 6px;
+  			 color: #fff;
+  			 font-family: 'Oswald';
+ 			 font-size: 20px;
+  			 text-decoration: none;
+             border: none;
+		}
+		#userButton:hover {
+            border: none;
+            background: orange;
+            box-shadow: 0px 0px 1px #777;
+}
+	 #barChartDIV3 { 
+			position: absolute;
+			right: 100px;
+			top: 250px;
+		}
+
+		
+		svg, #treeDIV1{
+			width: 100%;
+			height:100%;
+		}
+		
+		#pieChartDIV1 {
+			position: absolute;
+			right: 1000px;
+			top: 250px;
+		}
+		
+		.leaf circle {
+		  fill: #ff7f0e;
+		  fill-opacity: 1;
+		}
+		
+		.level_1 {
+			font: 40px sans-serif;
+		}
+
+		.leaf text {
+		  font: 12px sans-serif;
+		  text-anchor: middle;
+		}
+		.pielabels{
+			font-size:  35px;
+
+		}
+		.barlabels {
+			font-family: 'Open Sans', sans-serif;
+			font-size:  14px;
+			fill: black;
+		}
+		.axis {
+	  		font: 15px sans-serif;
+		}
+		.axis path,
+		.axis line
+		 {
+	  		fill: none;
+	  		stroke: #000;
+	  			
+		}
+		.axis text{
+			font-size: 16px;
+		}
+		.subunit.SCT { fill: thistle; }
+		.subunit.WLS { fill: lightsteelblue; }
+		.subunit.NIR { fill: paleturquoise; }
+		.subunit.ENG { fill: pink; }
+		.subunit.IRL { fill: lightgrey; }
+
+		.hovermap.SCT{ fill:thistle;
+						stroke: yellow;
+						stroke-width: 2px;	
+					}
+		.hovermap.WLS{ fill:lightsteelblue;
+						stroke: yellow;	
+						stroke-width: 2px;
+					}
+		.hovermap.NIR{ fill: paleturquoise;
+						stroke: yellow;	
+						stroke-width: 2px;
+					}
+		.hovermap.ENG{ fill:pink;
+						stroke: yellow;	
+						stroke-width: 2px;
+					}
+		.hovermap.IRL{ fill:lightgrey;
+						stroke: yellow;	
+						stroke-width: 2px;
+					}
+
+		.place,
+		.place-label {
+  			fill: steelblue;
+			}
+		#map-path.""{
+  			fill: red;
+			}
+		text {
+  			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  			font-size: 10px;
+  		}
+  		.map-circles {
+  			cursor: pointer;
+  		}
+
+  		.classNode {
+  		cursor: pointer;
+		}
+
+
+	    .classNoHighlight circle {
+	   
+	     stroke: steelblue;
+	   stroke-width: 2px;
+	 }
+	 .classNoHighlight text {
+	   fill: blue;
+	   font: 14px sans-serif;
+	 }
+	 path.classNoHighlight {
+	   fill: none;
+	   stroke: grey;
+	   stroke-width: 2px;
+	 } 
+	  path.classHighlight {
+	   fill: none;
+	   stroke: green;
+	   stroke-width: 2px;
+	 }
+	 .classHighlight text{
+	 	font: 30px sans-serif;
+
+	 } 
+	 .classHighlight circle{
+
+	 	stroke-width : 4px;
+	 }
+
+	span .tooltip {	
+    position: absolute;			
+    			
+}
+	 

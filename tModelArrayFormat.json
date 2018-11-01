@@ -1,0 +1,3748 @@
+{
+  "topics": [
+    [
+      {
+        "label": "model",
+        "weight": 0.085178340524509
+      },
+      {
+        "label": "system",
+        "weight": 0.08093879053347
+      },
+      {
+        "label": "problem",
+        "weight": 0.032762086089844
+      },
+      {
+        "label": "information",
+        "weight": 0.029100656552128
+      },
+      {
+        "label": "approach",
+        "weight": 0.028907949734354
+      },
+      {
+        "label": "work",
+        "weight": 0.024861106561089
+      },
+      {
+        "label": "technique",
+        "weight": 0.021006970205599
+      },
+      {
+        "label": "example",
+        "weight": 0.020814263387824
+      },
+      {
+        "label": "state",
+        "weight": 0.019272608845628
+      },
+      {
+        "label": "way",
+        "weight": 0.01850178157453
+      }
+    ],
+    [
+      {
+        "label": "program",
+        "weight": 0.074911923759079
+      },
+      {
+        "label": "software",
+        "weight": 0.068629393542525
+      },
+      {
+        "label": "type",
+        "weight": 0.050265074447983
+      },
+      {
+        "label": "language",
+        "weight": 0.04349927267631
+      },
+      {
+        "label": "code",
+        "weight": 0.027551311357365
+      },
+      {
+        "label": "generation",
+        "weight": 0.023201867361289
+      },
+      {
+        "label": "development",
+        "weight": 0.023201867361289
+      },
+      {
+        "label": "programming",
+        "weight": 0.020785509585691
+      },
+      {
+        "label": "project",
+        "weight": 0.020302238030572
+      },
+      {
+        "label": "technique",
+        "weight": 0.019818966475452
+      }
+    ],
+    [
+      {
+        "label": "proof",
+        "weight": 0.058931920326625
+      },
+      {
+        "label": "verification",
+        "weight": 0.037886476197603
+      },
+      {
+        "label": "theory",
+        "weight": 0.033677387371798
+      },
+      {
+        "label": "software",
+        "weight": 0.031339004690796
+      },
+      {
+        "label": "logic",
+        "weight": 0.030403651618395
+      },
+      {
+        "label": "order",
+        "weight": 0.029000622009793
+      },
+      {
+        "label": "property",
+        "weight": 0.02619456279259
+      },
+      {
+        "label": "method",
+        "weight": 0.025259209720189
+      },
+      {
+        "label": "program",
+        "weight": 0.021985473966786
+      },
+      {
+        "label": "specification",
+        "weight": 0.020582444358184
+      }
+    ],
+    [
+      {
+        "label": "decision",
+        "weight": 0.05568837268419
+      },
+      {
+        "label": "information",
+        "weight": 0.045399248288677
+      },
+      {
+        "label": "medium",
+        "weight": 0.043583520454174
+      },
+      {
+        "label": "time",
+        "weight": 0.036925851727665
+      },
+      {
+        "label": "event",
+        "weight": 0.03329439605866
+      },
+      {
+        "label": "content",
+        "weight": 0.029057697778154
+      },
+      {
+        "label": "stream",
+        "weight": 0.027241969943652
+      },
+      {
+        "label": "community",
+        "weight": 0.021794786440145
+      },
+      {
+        "label": "study",
+        "weight": 0.020584301217143
+      },
+      {
+        "label": "objective",
+        "weight": 0.015742360325136
+      }
+    ],
+    [
+      {
+        "label": "application",
+        "weight": 0.032502916035584
+      },
+      {
+        "label": "signal",
+        "weight": 0.026699860146353
+      },
+      {
+        "label": "speech",
+        "weight": 0.025539248968507
+      },
+      {
+        "label": "resolution",
+        "weight": 0.024378637790661
+      },
+      {
+        "label": "processing",
+        "weight": 0.024378637790661
+      },
+      {
+        "label": "sensor",
+        "weight": 0.024378637790661
+      },
+      {
+        "label": "noise",
+        "weight": 0.020896804257122
+      },
+      {
+        "label": "ray",
+        "weight": 0.020316498668199
+      },
+      {
+        "label": "detection",
+        "weight": 0.019736193079276
+      },
+      {
+        "label": "effect",
+        "weight": 0.017414970723583
+      }
+    ],
+    [
+      {
+        "label": "laser",
+        "weight": 0.081562082467186
+      },
+      {
+        "label": "quantum",
+        "weight": 0.052386588555913
+      },
+      {
+        "label": "system",
+        "weight": 0.03614114308259
+      },
+      {
+        "label": "wavelength",
+        "weight": 0.028184190197697
+      },
+      {
+        "label": "photon",
+        "weight": 0.026194951976474
+      },
+      {
+        "label": "source",
+        "weight": 0.023542634348176
+      },
+      {
+        "label": "fibre",
+        "weight": 0.019895697609267
+      },
+      {
+        "label": "cavity",
+        "weight": 0.01724337998097
+      },
+      {
+        "label": "communication",
+        "weight": 0.016911840277432
+      },
+      {
+        "label": "state",
+        "weight": 0.015917221166821
+      }
+    ],
+    [
+      {
+        "label": "material",
+        "weight": 0.065728771295184
+      },
+      {
+        "label": "device",
+        "weight": 0.063721862511697
+      },
+      {
+        "label": "semiconductor",
+        "weight": 0.036879457532556
+      },
+      {
+        "label": "property",
+        "weight": 0.030858731182094
+      },
+      {
+        "label": "structure",
+        "weight": 0.024085414037825
+      },
+      {
+        "label": "transistor",
+        "weight": 0.014301733718325
+      },
+      {
+        "label": "layer",
+        "weight": 0.014050870120389
+      },
+      {
+        "label": "fabrication",
+        "weight": 0.013549142924518
+      },
+      {
+        "label": "cell",
+        "weight": 0.013549142924518
+      },
+      {
+        "label": "interface",
+        "weight": 0.01279655213071
+      }
+    ],
+    [
+      {
+        "label": "problem",
+        "weight": 0.1249909865736
+      },
+      {
+        "label": "method",
+        "weight": 0.059613600419184
+      },
+      {
+        "label": "optimisation",
+        "weight": 0.038462093133932
+      },
+      {
+        "label": "constraint",
+        "weight": 0.03125135201396
+      },
+      {
+        "label": "analysis",
+        "weight": 0.029328487715301
+      },
+      {
+        "label": "technique",
+        "weight": 0.027886339491306
+      },
+      {
+        "label": "algorithm",
+        "weight": 0.025002043043317
+      },
+      {
+        "label": "solution",
+        "weight": 0.024040610893988
+      },
+      {
+        "label": "complexity",
+        "weight": 0.024040610893988
+      },
+      {
+        "label": "type",
+        "weight": 0.01731058584868
+      }
+    ],
+    [
+      {
+        "label": "image",
+        "weight": 0.070978804585432
+      },
+      {
+        "label": "video",
+        "weight": 0.038615058794138
+      },
+      {
+        "label": "scene",
+        "weight": 0.037479488766374
+      },
+      {
+        "label": "environment",
+        "weight": 0.036911703752491
+      },
+      {
+        "label": "map",
+        "weight": 0.030098283585903
+      },
+      {
+        "label": "camera",
+        "weight": 0.030098283585903
+      },
+      {
+        "label": "vision",
+        "weight": 0.028962713558138
+      },
+      {
+        "label": "application",
+        "weight": 0.024988218460962
+      },
+      {
+        "label": "object",
+        "weight": 0.02214929339155
+      },
+      {
+        "label": "computer",
+        "weight": 0.021581508377668
+      }
+    ],
+    [
+      {
+        "label": "resource",
+        "weight": 0.073564191717667
+      },
+      {
+        "label": "system",
+        "weight": 0.067576756777563
+      },
+      {
+        "label": "time",
+        "weight": 0.062016995761751
+      },
+      {
+        "label": "space",
+        "weight": 0.032935168909816
+      },
+      {
+        "label": "application",
+        "weight": 0.02395401649966
+      },
+      {
+        "label": "performance",
+        "weight": 0.020960299029608
+      },
+      {
+        "label": "service",
+        "weight": 0.017966581559556
+      },
+      {
+        "label": "management",
+        "weight": 0.016255885862383
+      },
+      {
+        "label": "level",
+        "weight": 0.01582821193809
+      },
+      {
+        "label": "user",
+        "weight": 0.01582821193809
+      }
+    ],
+    [
+      {
+        "label": "development",
+        "weight": 0.059509199194572
+      },
+      {
+        "label": "material",
+        "weight": 0.04516451230721
+      },
+      {
+        "label": "simulation",
+        "weight": 0.040382950011423
+      },
+      {
+        "label": "proposal",
+        "weight": 0.036132672415167
+      },
+      {
+        "label": "computer",
+        "weight": 0.030288540720316
+      },
+      {
+        "label": "multi",
+        "weight": 0.027100832523124
+      },
+      {
+        "label": "research",
+        "weight": 0.02603826312406
+      },
+      {
+        "label": "advance",
+        "weight": 0.024444409025464
+      },
+      {
+        "label": "area",
+        "weight": 0.023913124325933
+      },
+      {
+        "label": "technique",
+        "weight": 0.022850554926869
+      }
+    ],
+    [
+      {
+        "label": "game",
+        "weight": 0.088585937642198
+      },
+      {
+        "label": "software",
+        "weight": 0.043689290936338
+      },
+      {
+        "label": "vehicle",
+        "weight": 0.037622176516627
+      },
+      {
+        "label": "control",
+        "weight": 0.037622176516627
+      },
+      {
+        "label": "environment",
+        "weight": 0.026094659119176
+      },
+      {
+        "label": "model",
+        "weight": 0.024274524793263
+      },
+      {
+        "label": "creativity",
+        "weight": 0.023061101909321
+      },
+      {
+        "label": "player",
+        "weight": 0.021847679025379
+      },
+      {
+        "label": "uncertainty",
+        "weight": 0.021240967583408
+      },
+      {
+        "label": "knowledge",
+        "weight": 0.020634256141437
+      }
+    ],
+    [
+      {
+        "label": "brain",
+        "weight": 0.051019476648964
+      },
+      {
+        "label": "system",
+        "weight": 0.037594711716598
+      },
+      {
+        "label": "computer",
+        "weight": 0.019874022005875
+      },
+      {
+        "label": "science",
+        "weight": 0.018800040811285
+      },
+      {
+        "label": "change",
+        "weight": 0.017726059616696
+      },
+      {
+        "label": "project",
+        "weight": 0.017189069019401
+      },
+      {
+        "label": "control",
+        "weight": 0.016652078422107
+      },
+      {
+        "label": "gene",
+        "weight": 0.015578097227518
+      },
+      {
+        "label": "network",
+        "weight": 0.015578097227518
+      },
+      {
+        "label": "simulation",
+        "weight": 0.015041106630223
+      }
+    ],
+    [
+      {
+        "label": "network",
+        "weight": 0.23027457741639
+      },
+      {
+        "label": "communication",
+        "weight": 0.054756274196868
+      },
+      {
+        "label": "wireless",
+        "weight": 0.02990412506844
+      },
+      {
+        "label": "sensor",
+        "weight": 0.023302772956202
+      },
+      {
+        "label": "node",
+        "weight": 0.02291445812607
+      },
+      {
+        "label": "service",
+        "weight": 0.022137828465807
+      },
+      {
+        "label": "application",
+        "weight": 0.016701420843963
+      },
+      {
+        "label": "infrastructure",
+        "weight": 0.013983217033042
+      },
+      {
+        "label": "traffic",
+        "weight": 0.013983217033042
+      },
+      {
+        "label": "access",
+        "weight": 0.013206587372778
+      }
+    ],
+    [
+      {
+        "label": "data",
+        "weight": 0.19870234677178
+      },
+      {
+        "label": "information",
+        "weight": 0.068808416097845
+      },
+      {
+        "label": "source",
+        "weight": 0.026046305257167
+      },
+      {
+        "label": "project",
+        "weight": 0.022831108953357
+      },
+      {
+        "label": "method",
+        "weight": 0.021223510801452
+      },
+      {
+        "label": "research",
+        "weight": 0.015757677084974
+      },
+      {
+        "label": "processing",
+        "weight": 0.013185520041926
+      },
+      {
+        "label": "amount",
+        "weight": 0.013185520041926
+      },
+      {
+        "label": "number",
+        "weight": 0.012220961150783
+      },
+      {
+        "label": "extraction",
+        "weight": 0.011899441520402
+      }
+    ],
+    [
+      {
+        "label": "security",
+        "weight": 0.051528796766905
+      },
+      {
+        "label": "data",
+        "weight": 0.044014963262721
+      },
+      {
+        "label": "access",
+        "weight": 0.028987296254354
+      },
+      {
+        "label": "protocol",
+        "weight": 0.023083569929638
+      },
+      {
+        "label": "business",
+        "weight": 0.022010165143326
+      },
+      {
+        "label": "organisation",
+        "weight": 0.022010165143326
+      },
+      {
+        "label": "policy",
+        "weight": 0.02147346275017
+      },
+      {
+        "label": "cloud",
+        "weight": 0.020400057963858
+      },
+      {
+        "label": "pattern",
+        "weight": 0.018253248391235
+      },
+      {
+        "label": "service",
+        "weight": 0.015569736425455
+      }
+    ],
+    [
+      {
+        "label": "system",
+        "weight": 0.18986995435759
+      },
+      {
+        "label": "technique",
+        "weight": 0.040215899810549
+      },
+      {
+        "label": "design",
+        "weight": 0.031095708120702
+      },
+      {
+        "label": "application",
+        "weight": 0.026121058108058
+      },
+      {
+        "label": "requirement",
+        "weight": 0.025706503940337
+      },
+      {
+        "label": "property",
+        "weight": 0.022804624766295
+      },
+      {
+        "label": "user",
+        "weight": 0.021975516430854
+      },
+      {
+        "label": "case",
+        "weight": 0.021975516430854
+      },
+      {
+        "label": "component",
+        "weight": 0.019488191424532
+      },
+      {
+        "label": "study",
+        "weight": 0.019073637256812
+      }
+    ],
+    [
+      {
+        "label": "energy",
+        "weight": 0.084357753963851
+      },
+      {
+        "label": "power",
+        "weight": 0.063593566995325
+      },
+      {
+        "label": "communication",
+        "weight": 0.037638333284667
+      },
+      {
+        "label": "system",
+        "weight": 0.035691690756368
+      },
+      {
+        "label": "data",
+        "weight": 0.030500644014236
+      },
+      {
+        "label": "channel",
+        "weight": 0.025958478114871
+      },
+      {
+        "label": "consumption",
+        "weight": 0.021416312215506
+      },
+      {
+        "label": "transmission",
+        "weight": 0.021091871794123
+      },
+      {
+        "label": "efficiency",
+        "weight": 0.020118550529973
+      },
+      {
+        "label": "design",
+        "weight": 0.01979411010859
+      }
+    ],
+    [
+      {
+        "label": "technology",
+        "weight": 0.055879742072701
+      },
+      {
+        "label": "application",
+        "weight": 0.041910933071381
+      },
+      {
+        "label": "device",
+        "weight": 0.034701225199731
+      },
+      {
+        "label": "photonics",
+        "weight": 0.032448191489841
+      },
+      {
+        "label": "integration",
+        "weight": 0.029293944295995
+      },
+      {
+        "label": "silicon",
+        "weight": 0.02568909036017
+      },
+      {
+        "label": "chip",
+        "weight": 0.024787876876214
+      },
+      {
+        "label": "field",
+        "weight": 0.02343605665028
+      },
+      {
+        "label": "electronics",
+        "weight": 0.021633629682367
+      },
+      {
+        "label": "circuit",
+        "weight": 0.021633629682367
+      }
+    ],
+    [
+      {
+        "label": "ontology",
+        "weight": 0.069528450351719
+      },
+      {
+        "label": "knowledge",
+        "weight": 0.044879695113858
+      },
+      {
+        "label": "data",
+        "weight": 0.044247675748785
+      },
+      {
+        "label": "query",
+        "weight": 0.035399404637758
+      },
+      {
+        "label": "application",
+        "weight": 0.033503346542538
+      },
+      {
+        "label": "web",
+        "weight": 0.029079210987025
+      },
+      {
+        "label": "domain",
+        "weight": 0.022759017336291
+      },
+      {
+        "label": "source",
+        "weight": 0.022126997971218
+      },
+      {
+        "label": "language",
+        "weight": 0.020230939875998
+      },
+      {
+        "label": "example",
+        "weight": 0.016438823685558
+      }
+    ],
+    [
+      {
+        "label": "memory",
+        "weight": 0.042444140787136
+      },
+      {
+        "label": "device",
+        "weight": 0.039645933505268
+      },
+      {
+        "label": "information",
+        "weight": 0.034982254702154
+      },
+      {
+        "label": "architecture",
+        "weight": 0.034515886821843
+      },
+      {
+        "label": "computation",
+        "weight": 0.031251311659663
+      },
+      {
+        "label": "hardware",
+        "weight": 0.029385840138418
+      },
+      {
+        "label": "processor",
+        "weight": 0.025654897095927
+      },
+      {
+        "label": "implementation",
+        "weight": 0.025654897095927
+      },
+      {
+        "label": "performance",
+        "weight": 0.022856689814059
+      },
+      {
+        "label": "core",
+        "weight": 0.022390321933748
+      }
+    ],
+    [
+      {
+        "label": "problem",
+        "weight": 0.078908287764926
+      },
+      {
+        "label": "computer",
+        "weight": 0.035837959086633
+      },
+      {
+        "label": "algorithm",
+        "weight": 0.033081458051223
+      },
+      {
+        "label": "graph",
+        "weight": 0.033081458051223
+      },
+      {
+        "label": "time",
+        "weight": 0.028946706498107
+      },
+      {
+        "label": "model",
+        "weight": 0.026534768092122
+      },
+      {
+        "label": "science",
+        "weight": 0.024811954944991
+      },
+      {
+        "label": "application",
+        "weight": 0.024467392315564
+      },
+      {
+        "label": "class",
+        "weight": 0.02205545390958
+      },
+      {
+        "label": "optimization",
+        "weight": 0.020677203391875
+      }
+    ],
+    [
+      {
+        "label": "place",
+        "weight": 0.045330529445356
+      },
+      {
+        "label": "display",
+        "weight": 0.034453377808798
+      },
+      {
+        "label": "colour",
+        "weight": 0.029014801990519
+      },
+      {
+        "label": "phase",
+        "weight": 0.019044079657007
+      },
+      {
+        "label": "phone",
+        "weight": 0.019044079657007
+      },
+      {
+        "label": "paper",
+        "weight": 0.017231221050914
+      },
+      {
+        "label": "light",
+        "weight": 0.017231221050914
+      },
+      {
+        "label": "sample",
+        "weight": 0.016324791747868
+      },
+      {
+        "label": "community",
+        "weight": 0.015418362444821
+      },
+      {
+        "label": "illumination",
+        "weight": 0.013605503838728
+      }
+    ],
+    [
+      {
+        "label": "research",
+        "weight": 0.085487158462795
+      },
+      {
+        "label": "science",
+        "weight": 0.028497657905985
+      },
+      {
+        "label": "project",
+        "weight": 0.024136216536841
+      },
+      {
+        "label": "work",
+        "weight": 0.021810114473298
+      },
+      {
+        "label": "university",
+        "weight": 0.02006553792564
+      },
+      {
+        "label": "area",
+        "weight": 0.019774775167697
+      },
+      {
+        "label": "researcher",
+        "weight": 0.019774775167697
+      },
+      {
+        "label": "collaboration",
+        "weight": 0.019193249651812
+      },
+      {
+        "label": "group",
+        "weight": 0.018320961377983
+      },
+      {
+        "label": "world",
+        "weight": 0.016285622072382
+      }
+    ],
+    [
+      {
+        "label": "device",
+        "weight": 0.057427182164437
+      },
+      {
+        "label": "temperature",
+        "weight": 0.033194080801589
+      },
+      {
+        "label": "electron",
+        "weight": 0.03161366114749
+      },
+      {
+        "label": "spin",
+        "weight": 0.026872402185194
+      },
+      {
+        "label": "silicon",
+        "weight": 0.021604336671531
+      },
+      {
+        "label": "growth",
+        "weight": 0.019497110466066
+      },
+      {
+        "label": "atom",
+        "weight": 0.018443497363333
+      },
+      {
+        "label": "technique",
+        "weight": 0.016863077709234
+      },
+      {
+        "label": "carrier",
+        "weight": 0.016336271157868
+      },
+      {
+        "label": "semiconductor",
+        "weight": 0.016336271157868
+      }
+    ],
+    [
+      {
+        "label": "user",
+        "weight": 0.048909806655917
+      },
+      {
+        "label": "people",
+        "weight": 0.041162485534299
+      },
+      {
+        "label": "robot",
+        "weight": 0.034867787122984
+      },
+      {
+        "label": "music",
+        "weight": 0.026636258431264
+      },
+      {
+        "label": "way",
+        "weight": 0.025667843291062
+      },
+      {
+        "label": "interaction",
+        "weight": 0.023731013010657
+      },
+      {
+        "label": "environment",
+        "weight": 0.020825767590051
+      },
+      {
+        "label": "technology",
+        "weight": 0.020341560019949
+      },
+      {
+        "label": "life",
+        "weight": 0.017436314599342
+      },
+      {
+        "label": "world",
+        "weight": 0.016952107029241
+      }
+    ],
+    [
+      {
+        "label": "frequency",
+        "weight": 0.051029569773774
+      },
+      {
+        "label": "thz",
+        "weight": 0.035820295059929
+      },
+      {
+        "label": "power",
+        "weight": 0.035329673294967
+      },
+      {
+        "label": "field",
+        "weight": 0.030914077410302
+      },
+      {
+        "label": "antenna",
+        "weight": 0.0269891032906
+      },
+      {
+        "label": "radiation",
+        "weight": 0.020611020346085
+      },
+      {
+        "label": "measurement",
+        "weight": 0.018648533286234
+      },
+      {
+        "label": "source",
+        "weight": 0.017176667991345
+      },
+      {
+        "label": "spectrum",
+        "weight": 0.016686046226383
+      },
+      {
+        "label": "terahertz",
+        "weight": 0.016686046226383
+      }
+    ],
+    [
+      {
+        "label": "machine",
+        "weight": 0.064577328371821
+      },
+      {
+        "label": "interaction",
+        "weight": 0.041278632433116
+      },
+      {
+        "label": "object",
+        "weight": 0.033290508111275
+      },
+      {
+        "label": "structure",
+        "weight": 0.032624831084454
+      },
+      {
+        "label": "field",
+        "weight": 0.028630768923534
+      },
+      {
+        "label": "task",
+        "weight": 0.027299414869893
+      },
+      {
+        "label": "recognition",
+        "weight": 0.026633737843073
+      },
+      {
+        "label": "computer",
+        "weight": 0.025968060816253
+      },
+      {
+        "label": "analysis",
+        "weight": 0.021308321628512
+      },
+      {
+        "label": "agent",
+        "weight": 0.018645613521232
+      }
+    ],
+    [
+      {
+        "label": "research",
+        "weight": 0.05102009763293
+      },
+      {
+        "label": "application",
+        "weight": 0.047976900342449
+      },
+      {
+        "label": "technology",
+        "weight": 0.042606552182778
+      },
+      {
+        "label": "design",
+        "weight": 0.028285623756988
+      },
+      {
+        "label": "area",
+        "weight": 0.019514055096192
+      },
+      {
+        "label": "approach",
+        "weight": 0.018081962253613
+      },
+      {
+        "label": "range",
+        "weight": 0.017544927437646
+      },
+      {
+        "label": "project",
+        "weight": 0.017186904227001
+      },
+      {
+        "label": "process",
+        "weight": 0.017186904227001
+      },
+      {
+        "label": "development",
+        "weight": 0.016828881016356
+      }
+    ],
+    [
+      {
+        "label": "language",
+        "weight": 0.094415896288881
+      },
+      {
+        "label": "word",
+        "weight": 0.069704669154686
+      },
+      {
+        "label": "pattern",
+        "weight": 0.030420154223402
+      },
+      {
+        "label": "text",
+        "weight": 0.029786533014833
+      },
+      {
+        "label": "translation",
+        "weight": 0.028519290597695
+      },
+      {
+        "label": "processing",
+        "weight": 0.023450320929142
+      },
+      {
+        "label": "sentence",
+        "weight": 0.023450320929142
+      },
+      {
+        "label": "meaning",
+        "weight": 0.021549457303435
+      },
+      {
+        "label": "method",
+        "weight": 0.020915836094866
+      },
+      {
+        "label": "field",
+        "weight": 0.019648593677728
+      }
+    ]
+  ],
+  "topicsDocsDistrib": [
+    [
+      {
+        "docID": "EP/L007177/1",
+        "weight": 0.60196078431373
+      },
+      {
+        "docID": "EP/H026878/1",
+        "weight": 0.58706896551724
+      },
+      {
+        "docID": "EP/J009075/1",
+        "weight": 0.57676767676768
+      }
+    ],
+    [
+      {
+        "docID": "EP/K037633/1",
+        "weight": 0.33418803418803
+      },
+      {
+        "docID": "EP/G04354X/1",
+        "weight": 0.68189655172414
+      },
+      {
+        "docID": "EP/G068917/1",
+        "weight": 0.44896551724138
+      },
+      {
+        "docID": "EP/K018728/1",
+        "weight": 0.41
+      },
+      {
+        "docID": "EP/L000687/1",
+        "weight": 0.37556818181818
+      },
+      {
+        "docID": "EP/K039431/1",
+        "weight": 0.28904109589041
+      },
+      {
+        "docID": "EP/K030353/1",
+        "weight": 0.67670454545455
+      },
+      {
+        "docID": "EP/K031864/1",
+        "weight": 0.46609195402299
+      },
+      {
+        "docID": "EP/I032495/1",
+        "weight": 0.34941860465116
+      },
+      {
+        "docID": "EP/K020218/1",
+        "weight": 0.41779141104294
+      },
+      {
+        "docID": "EP/J010995/1",
+        "weight": 0.41914893617021
+      },
+      {
+        "docID": "EP/G034109/1",
+        "weight": 0.53660714285714
+      },
+      {
+        "docID": "EP/J00636X/1",
+        "weight": 0.37340425531915
+      },
+      {
+        "docID": "EP/J014591/1",
+        "weight": 0.32543859649123
+      },
+      {
+        "docID": "EP/J007617/1",
+        "weight": 0.3489898989899
+      },
+      {
+        "docID": "EP/G033056/1",
+        "weight": 0.40197368421053
+      },
+      {
+        "docID": "EP/I010165/1",
+        "weight": 0.4943661971831
+      },
+      {
+        "docID": "EP/K024043/1",
+        "weight": 0.40373134328358
+      },
+      {
+        "docID": "EP/H020217/1",
+        "weight": 0.34036697247706
+      }
+    ],
+    [
+      {
+        "docID": "EP/J014222/1",
+        "weight": 0.33175675675676
+      },
+      {
+        "docID": "EP/G026254/1",
+        "weight": 0.32443181818182
+      },
+      {
+        "docID": "EP/K039431/1",
+        "weight": 0.31643835616438
+      },
+      {
+        "docID": "EP/G041296/1",
+        "weight": 0.43358208955224
+      },
+      {
+        "docID": "EP/K040049/1",
+        "weight": 0.57671232876712
+      },
+      {
+        "docID": "EP/K040863/1",
+        "weight": 0.53018867924528
+      },
+      {
+        "docID": "EP/J009113/1",
+        "weight": 0.725625
+      },
+      {
+        "docID": "EP/J003727/1",
+        "weight": 0.32767295597484
+      },
+      {
+        "docID": "EP/H043748/1",
+        "weight": 0.35449438202247
+      },
+      {
+        "docID": "EP/H024050/1",
+        "weight": 0.38488372093023
+      },
+      {
+        "docID": "EP/L020750/1",
+        "weight": 0.34943820224719
+      },
+      {
+        "docID": "EP/K017438/1",
+        "weight": 0.38482142857143
+      },
+      {
+        "docID": "EP/G042322/2",
+        "weight": 0.52459893048128
+      },
+      {
+        "docID": "EP/K018868/1",
+        "weight": 0.544375
+      },
+      {
+        "docID": "EP/F036361/1",
+        "weight": 0.54329268292683
+      }
+    ],
+    [
+      {
+        "docID": "EP/L003112/1",
+        "weight": 0.26434108527132
+      },
+      {
+        "docID": "EP/J020915/1",
+        "weight": 0.45941176470588
+      },
+      {
+        "docID": "EP/L018535/1",
+        "weight": 0.41328671328671
+      },
+      {
+        "docID": "EP/J012521/1",
+        "weight": 0.30738636363636
+      },
+      {
+        "docID": "EP/J020427/1",
+        "weight": 0.42027027027027
+      },
+      {
+        "docID": "EP/J020664/1",
+        "weight": 0.5814371257485
+      },
+      {
+        "docID": "EP/J01950X/1",
+        "weight": 0.3
+      },
+      {
+        "docID": "EP/L006685/1",
+        "weight": 0.27452830188679
+      },
+      {
+        "docID": "EP/J018805/1",
+        "weight": 0.2945652173913
+      },
+      {
+        "docID": "EP/J020583/1",
+        "weight": 0.24915254237288
+      },
+      {
+        "docID": "EP/H021779/1",
+        "weight": 0.24391534391534
+      },
+      {
+        "docID": "EP/K007491/1",
+        "weight": 0.27283950617284
+      }
+    ],
+    [
+      {
+        "docID": "EP/J014699/1",
+        "weight": 0.26684782608696
+      },
+      {
+        "docID": "EP/H012842/1",
+        "weight": 0.26363636363636
+      },
+      {
+        "docID": "EP/H012877/1",
+        "weight": 0.56666666666667
+      },
+      {
+        "docID": "EP/H031464/1",
+        "weight": 0.35347593582888
+      },
+      {
+        "docID": "EP/H004963/1",
+        "weight": 0.40179640718563
+      },
+      {
+        "docID": "EP/H026266/1",
+        "weight": 0.21588785046729
+      },
+      {
+        "docID": "EP/I022562/1",
+        "weight": 0.24918918918919
+      },
+      {
+        "docID": "EP/J015849/1",
+        "weight": 0.22601156069364
+      },
+      {
+        "docID": "EP/H012370/1",
+        "weight": 0.41833333333333
+      },
+      {
+        "docID": "EP/I010920/1",
+        "weight": 0.47426900584795
+      },
+      {
+        "docID": "EP/J015180/1",
+        "weight": 0.22934782608696
+      },
+      {
+        "docID": "EP/I013601/1",
+        "weight": 0.27959183673469
+      },
+      {
+        "docID": "EP/K00767X/1",
+        "weight": 0.52252747252747
+      },
+      {
+        "docID": "EP/K001469/1",
+        "weight": 0.37106598984772
+      },
+      {
+        "docID": "EP/H049665/1",
+        "weight": 0.2179347826087
+      },
+      {
+        "docID": "EP/I029613/1",
+        "weight": 0.25227272727273
+      },
+      {
+        "docID": "EP/H011536/1",
+        "weight": 0.23045977011494
+      },
+      {
+        "docID": "EP/J002526/1",
+        "weight": 0.35644171779141
+      },
+      {
+        "docID": "EP/K034626/1",
+        "weight": 0.30201005025126
+      },
+      {
+        "docID": "EP/H012354/1",
+        "weight": 0.32028985507246
+      }
+    ],
+    [
+      {
+        "docID": "EP/J009709/2",
+        "weight": 0.70387096774194
+      },
+      {
+        "docID": "EP/H005412/1",
+        "weight": 0.42928571428571
+      },
+      {
+        "docID": "EP/K037056/1",
+        "weight": 0.66739130434783
+      },
+      {
+        "docID": "EP/I01246X/1",
+        "weight": 0.44913793103448
+      },
+      {
+        "docID": "EP/G059268/1",
+        "weight": 0.43211009174312
+      },
+      {
+        "docID": "EP/J00815X/1",
+        "weight": 0.84054054054054
+      },
+      {
+        "docID": "EP/H049371/1",
+        "weight": 0.44024390243902
+      },
+      {
+        "docID": "EP/K022407/1",
+        "weight": 0.45816993464052
+      },
+      {
+        "docID": "EP/J007994/1",
+        "weight": 0.7925
+      },
+      {
+        "docID": "EP/K012029/1",
+        "weight": 0.5141592920354
+      },
+      {
+        "docID": "EP/H00680X/1",
+        "weight": 0.51896551724138
+      },
+      {
+        "docID": "EP/J009709/1",
+        "weight": 0.70387096774194
+      }
+    ],
+    [
+      {
+        "docID": "EP/J002305/1",
+        "weight": 0.60173410404624
+      },
+      {
+        "docID": "EP/G062404/1",
+        "weight": 0.56495726495727
+      },
+      {
+        "docID": "EP/E051804/1",
+        "weight": 0.61397849462366
+      },
+      {
+        "docID": "EP/K018884/1",
+        "weight": 0.646875
+      },
+      {
+        "docID": "EP/I010084/1",
+        "weight": 0.5555
+      },
+      {
+        "docID": "EP/J021857/1",
+        "weight": 0.67888888888889
+      }
+    ],
+    [
+      {
+        "docID": "EP/J021628/1",
+        "weight": 0.3843023255814
+      },
+      {
+        "docID": "EP/H027203/1",
+        "weight": 0.55477707006369
+      },
+      {
+        "docID": "EP/J000078/1",
+        "weight": 0.56071428571429
+      },
+      {
+        "docID": "EP/K005162/1",
+        "weight": 0.34583333333333
+      },
+      {
+        "docID": "EP/I010297/1",
+        "weight": 0.36015625
+      },
+      {
+        "docID": "EP/H000666/1",
+        "weight": 0.50779220779221
+      },
+      {
+        "docID": "EP/K000519/1",
+        "weight": 0.4168
+      },
+      {
+        "docID": "EP/J021814/1",
+        "weight": 0.35520833333333
+      },
+      {
+        "docID": "EP/G020604/1",
+        "weight": 0.50070422535211
+      },
+      {
+        "docID": "EP/L005654/1",
+        "weight": 0.50102040816327
+      },
+      {
+        "docID": "EP/H004092/1",
+        "weight": 0.51720430107527
+      },
+      {
+        "docID": "EP/G039070/2",
+        "weight": 0.35
+      },
+      {
+        "docID": "EP/H026835/1",
+        "weight": 0.34318181818182
+      },
+      {
+        "docID": "EP/H028900/1",
+        "weight": 0.6134328358209
+      }
+    ],
+    [
+      {
+        "docID": "EP/K007432/1",
+        "weight": 0.40796460176991
+      },
+      {
+        "docID": "EP/K015966/1",
+        "weight": 0.52333333333333
+      },
+      {
+        "docID": "EP/K02339X/1",
+        "weight": 0.31573033707865
+      },
+      {
+        "docID": "EP/I038780/1",
+        "weight": 0.63191489361702
+      },
+      {
+        "docID": "EP/J020567/1",
+        "weight": 0.29384615384615
+      },
+      {
+        "docID": "EP/H022236/1",
+        "weight": 0.26845238095238
+      },
+      {
+        "docID": "EP/H004289/1",
+        "weight": 0.56328125
+      },
+      {
+        "docID": "EP/H050795/1",
+        "weight": 0.32446043165468
+      },
+      {
+        "docID": "EP/J020567/2",
+        "weight": 0.29384615384615
+      },
+      {
+        "docID": "EP/K034081/1",
+        "weight": 0.30535714285714
+      },
+      {
+        "docID": "EP/I011811/1",
+        "weight": 0.3
+      },
+      {
+        "docID": "EP/K005952/1",
+        "weight": 0.44689265536723
+      },
+      {
+        "docID": "EP/K011766/1",
+        "weight": 0.32733333333333
+      },
+      {
+        "docID": "EP/J012106/1",
+        "weight": 0.46091954022989
+      },
+      {
+        "docID": "EP/J014990/1",
+        "weight": 0.44772727272727
+      },
+      {
+        "docID": "EP/I031170/1",
+        "weight": 0.41909090909091
+      },
+      {
+        "docID": "EP/I001107/1",
+        "weight": 0.35340909090909
+      },
+      {
+        "docID": "EP/G006555/2",
+        "weight": 0.38571428571429
+      }
+    ],
+    [
+      {
+        "docID": "EP/K005111/1",
+        "weight": 0.50061728395062
+      },
+      {
+        "docID": "EP/K011626/1",
+        "weight": 0.53817204301075
+      },
+      {
+        "docID": "EP/G054304/1",
+        "weight": 0.53006535947712
+      },
+      {
+        "docID": "EP/G055548/1",
+        "weight": 0.77514450867052
+      },
+      {
+        "docID": "EP/J022128/1",
+        "weight": 0.54258064516129
+      }
+    ],
+    [
+      {
+        "docID": "EP/F048084/1",
+        "weight": 0.94264705882353
+      },
+      {
+        "docID": "EP/F03718X/1",
+        "weight": 0.95735294117647
+      },
+      {
+        "docID": "EP/F038038/1",
+        "weight": 0.95735294117647
+      },
+      {
+        "docID": "EP/F036884/1",
+        "weight": 0.92794117647059
+      },
+      {
+        "docID": "EP/F03721X/1",
+        "weight": 0.95735294117647
+      }
+    ],
+    [
+      {
+        "docID": "EP/J004049/2",
+        "weight": 0.67102272727273
+      },
+      {
+        "docID": "EP/J011991/1",
+        "weight": 0.28545454545455
+      },
+      {
+        "docID": "EP/I00680X/1",
+        "weight": 0.26256684491979
+      },
+      {
+        "docID": "EP/J004049/1",
+        "weight": 0.68238636363636
+      },
+      {
+        "docID": "EP/J019399/1",
+        "weight": 0.36162790697674
+      },
+      {
+        "docID": "EP/J012564/1",
+        "weight": 0.2544776119403
+      },
+      {
+        "docID": "EP/L00643X/1",
+        "weight": 0.37792207792208
+      },
+      {
+        "docID": "EP/I001964/1",
+        "weight": 0.37213114754098
+      },
+      {
+        "docID": "EP/I009310/1",
+        "weight": 0.23045977011494
+      },
+      {
+        "docID": "EP/J012211/1",
+        "weight": 0.37619047619048
+      },
+      {
+        "docID": "EP/L011018/1",
+        "weight": 0.46834532374101
+      },
+      {
+        "docID": "EP/J011525/1",
+        "weight": 0.30647058823529
+      },
+      {
+        "docID": "EP/G023360/2",
+        "weight": 0.225
+      },
+      {
+        "docID": "EP/G069239/1",
+        "weight": 0.28396226415094
+      }
+    ],
+    [
+      {
+        "docID": "EP/K033948/1",
+        "weight": 0.32222222222222
+      },
+      {
+        "docID": "EP/I005102/1",
+        "weight": 0.41479289940828
+      },
+      {
+        "docID": "EP/H014381/1",
+        "weight": 0.44821428571429
+      },
+      {
+        "docID": "EP/H032436/1",
+        "weight": 0.53025210084034
+      },
+      {
+        "docID": "EP/I005102/2",
+        "weight": 0.39112426035503
+      },
+      {
+        "docID": "EP/J00801X/2",
+        "weight": 0.56029411764706
+      },
+      {
+        "docID": "EP/I006761/1",
+        "weight": 0.32030456852792
+      },
+      {
+        "docID": "EP/J004057/1",
+        "weight": 0.601
+      },
+      {
+        "docID": "EP/J004561/1",
+        "weight": 0.28782608695652
+      },
+      {
+        "docID": "EP/J019534/1",
+        "weight": 0.4431693989071
+      },
+      {
+        "docID": "EP/H019162/1",
+        "weight": 0.55116279069767
+      },
+      {
+        "docID": "EP/H01294X/2",
+        "weight": 0.2830985915493
+      },
+      {
+        "docID": "EP/J00801X/1",
+        "weight": 0.575
+      },
+      {
+        "docID": "EP/F03430X/1",
+        "weight": 0.36542056074766
+      }
+    ],
+    [
+      {
+        "docID": "TS/H001832/1",
+        "weight": 0.36871165644172
+      },
+      {
+        "docID": "EP/G023018/1",
+        "weight": 0.45956284153005
+      },
+      {
+        "docID": "EP/K022601/1",
+        "weight": 0.60074074074074
+      },
+      {
+        "docID": "EP/J017159/1",
+        "weight": 0.4656976744186
+      },
+      {
+        "docID": "EP/I037423/1",
+        "weight": 0.40833333333333
+      },
+      {
+        "docID": "EP/J021768/1",
+        "weight": 0.35602409638554
+      },
+      {
+        "docID": "EP/H011919/1",
+        "weight": 0.52622950819672
+      },
+      {
+        "docID": "EP/G069557/1",
+        "weight": 0.55857142857143
+      },
+      {
+        "docID": "EP/H004793/1",
+        "weight": 0.50102040816327
+      },
+      {
+        "docID": "EP/K019589/1",
+        "weight": 0.50837696335079
+      },
+      {
+        "docID": "EP/F064551/1",
+        "weight": 0.42357723577236
+      },
+      {
+        "docID": "EP/L006251/1",
+        "weight": 0.363125
+      },
+      {
+        "docID": "EP/K015680/1",
+        "weight": 0.39728260869565
+      },
+      {
+        "docID": "EP/K040006/1",
+        "weight": 0.46847826086957
+      },
+      {
+        "docID": "EP/K032968/1",
+        "weight": 0.37363184079602
+      }
+    ],
+    [
+      {
+        "docID": "EP/J019488/1",
+        "weight": 0.56683673469388
+      },
+      {
+        "docID": "EP/J020567/2",
+        "weight": 0.43230769230769
+      },
+      {
+        "docID": "EP/J008346/1",
+        "weight": 0.45221238938053
+      },
+      {
+        "docID": "EP/J020583/1",
+        "weight": 0.42994350282486
+      }
+    ],
+    [
+      {
+        "docID": "EP/K024914/1",
+        "weight": 0.37669172932331
+      },
+      {
+        "docID": "EP/J020354/1",
+        "weight": 0.62484848484848
+      },
+      {
+        "docID": "EP/J020494/1",
+        "weight": 0.47291666666667
+      },
+      {
+        "docID": "EP/G013829/1",
+        "weight": 0.54420289855072
+      },
+      {
+        "docID": "EP/J020370/1",
+        "weight": 0.64198473282443
+      },
+      {
+        "docID": "EP/G050112/2",
+        "weight": 0.43035714285714
+      },
+      {
+        "docID": "EP/K009923/1",
+        "weight": 0.33418803418803
+      },
+      {
+        "docID": "EP/G012407/1",
+        "weight": 0.3972972972973
+      },
+      {
+        "docID": "EP/J011541/1",
+        "weight": 0.52924528301887
+      },
+      {
+        "docID": "EP/J020389/1",
+        "weight": 0.32650602409639
+      },
+      {
+        "docID": "EP/J009520/1",
+        "weight": 0.48545454545455
+      },
+      {
+        "docID": "EP/J004197/1",
+        "weight": 0.31166666666667
+      }
+    ],
+    [
+      {
+        "docID": "EP/K01000X/1",
+        "weight": 0.46904761904762
+      },
+      {
+        "docID": "EP/K033905/1",
+        "weight": 0.35857142857143
+      },
+      {
+        "docID": "EP/F033206/1",
+        "weight": 0.96754966887417
+      },
+      {
+        "docID": "EP/I012923/1",
+        "weight": 0.38333333333333
+      },
+      {
+        "docID": "EP/F033540/1",
+        "weight": 0.97417218543046
+      },
+      {
+        "docID": "EP/K004832/1",
+        "weight": 0.34473684210526
+      },
+      {
+        "docID": "EP/F033567/1",
+        "weight": 0.97417218543046
+      },
+      {
+        "docID": "EP/J011770/1",
+        "weight": 0.44814814814815
+      }
+    ],
+    [
+      {
+        "docID": "EP/I012702/1",
+        "weight": 0.46878612716763
+      },
+      {
+        "docID": "EP/G066159/1",
+        "weight": 0.45208333333333
+      },
+      {
+        "docID": "EP/K017950/1",
+        "weight": 0.47983193277311
+      },
+      {
+        "docID": "EP/F033370/1",
+        "weight": 0.50078125
+      },
+      {
+        "docID": "EP/L000555/1",
+        "weight": 0.51758241758242
+      },
+      {
+        "docID": "EP/J015520/1",
+        "weight": 0.4167701863354
+      },
+      {
+        "docID": "EP/F033702/1",
+        "weight": 0.50859375
+      },
+      {
+        "docID": "EP/J017655/1",
+        "weight": 0.49007092198582
+      },
+      {
+        "docID": "EP/J008842/1",
+        "weight": 0.51827411167513
+      },
+      {
+        "docID": "EP/K008161/1",
+        "weight": 0.46173913043478
+      },
+      {
+        "docID": "EP/K011979/1",
+        "weight": 0.42371134020619
+      },
+      {
+        "docID": "EP/K032984/1",
+        "weight": 0.42101449275362
+      }
+    ],
+    [
+      {
+        "docID": "EP/F001428/2",
+        "weight": 0.98092105263158
+      },
+      {
+        "docID": "EP/F001894/1",
+        "weight": 0.97434210526316
+      },
+      {
+        "docID": "EP/F001622/1",
+        "weight": 0.98092105263158
+      },
+      {
+        "docID": "EP/E065317/1",
+        "weight": 0.98092105263158
+      },
+      {
+        "docID": "EP/J012874/1",
+        "weight": 0.33607594936709
+      },
+      {
+        "docID": "EP/F002548/1",
+        "weight": 0.98092105263158
+      },
+      {
+        "docID": "EP/H022384/1",
+        "weight": 0.30693641618497
+      },
+      {
+        "docID": "EP/H009817/1",
+        "weight": 0.41340206185567
+      },
+      {
+        "docID": "EP/I035935/1",
+        "weight": 0.31546961325967
+      }
+    ],
+    [
+      {
+        "docID": "EP/H043594/1",
+        "weight": 0.55547945205479
+      },
+      {
+        "docID": "EP/H017690/1",
+        "weight": 0.44603174603175
+      },
+      {
+        "docID": "EP/H051511/1",
+        "weight": 0.66914285714286
+      },
+      {
+        "docID": "EP/J020214/1",
+        "weight": 0.73989361702128
+      },
+      {
+        "docID": "EP/G004021/1",
+        "weight": 0.428125
+      },
+      {
+        "docID": "EP/I005706/1",
+        "weight": 0.54127906976744
+      },
+      {
+        "docID": "EP/H020780/1",
+        "weight": 0.42258064516129
+      },
+      {
+        "docID": "EP/G02085X/1",
+        "weight": 0.54493670886076
+      },
+      {
+        "docID": "EP/H016317/1",
+        "weight": 0.2728
+      },
+      {
+        "docID": "EP/J014354/1",
+        "weight": 0.2453488372093
+      },
+      {
+        "docID": "EP/G049165/1",
+        "weight": 0.52692307692308
+      },
+      {
+        "docID": "EP/J008346/1",
+        "weight": 0.39026548672566
+      },
+      {
+        "docID": "EP/G033579/1",
+        "weight": 0.29193548387097
+      },
+      {
+        "docID": "EP/K017438/1",
+        "weight": 0.28660714285714
+      },
+      {
+        "docID": "EP/L003260/1",
+        "weight": 0.33918918918919
+      }
+    ],
+    [
+      {
+        "docID": "EP/H026975/1",
+        "weight": 0.47230769230769
+      },
+      {
+        "docID": "EP/H027351/1",
+        "weight": 0.33125
+      },
+      {
+        "docID": "EP/K000802/1",
+        "weight": 0.35753424657534
+      },
+      {
+        "docID": "EP/K033956/1",
+        "weight": 0.42163742690058
+      },
+      {
+        "docID": "EP/F036345/1",
+        "weight": 0.38395061728395
+      },
+      {
+        "docID": "EP/J007838/1",
+        "weight": 0.84457831325301
+      },
+      {
+        "docID": "EP/K040561/1",
+        "weight": 0.513125
+      },
+      {
+        "docID": "EP/K011499/1",
+        "weight": 0.47574257425743
+      },
+      {
+        "docID": "EP/J015563/1",
+        "weight": 0.50135135135135
+      },
+      {
+        "docID": "EP/J016330/1",
+        "weight": 0.31538461538462
+      },
+      {
+        "docID": "EP/J008249/2",
+        "weight": 0.86867469879518
+      },
+      {
+        "docID": "EP/E059600/1",
+        "weight": 0.42296296296296
+      },
+      {
+        "docID": "EP/J008249/1",
+        "weight": 0.80843373493976
+      },
+      {
+        "docID": "EP/L010550/1",
+        "weight": 0.47307692307692
+      },
+      {
+        "docID": "EP/H051155/1",
+        "weight": 0.32179487179487
+      }
+    ],
+    [
+      {
+        "docID": "EP/H021426/1",
+        "weight": 0.90921052631579
+      },
+      {
+        "docID": "EP/K022660/1",
+        "weight": 0.76015037593985
+      },
+      {
+        "docID": "EP/I011528/1",
+        "weight": 0.52391304347826
+      },
+      {
+        "docID": "EP/G043434/1",
+        "weight": 0.57771428571429
+      },
+      {
+        "docID": "EP/G066604/1",
+        "weight": 0.53780487804878
+      },
+      {
+        "docID": "EP/G064679/1",
+        "weight": 0.44868421052632
+      },
+      {
+        "docID": "EP/K025090/1",
+        "weight": 0.82066666666667
+      },
+      {
+        "docID": "EP/K016423/1",
+        "weight": 0.83804347826087
+      }
+    ],
+    [
+      {
+        "docID": "EP/J005223/1",
+        "weight": 0.25602836879433
+      },
+      {
+        "docID": "EP/K015850/1",
+        "weight": 0.50052083333333
+      },
+      {
+        "docID": "EP/F056745/1",
+        "weight": 0.30274725274725
+      },
+      {
+        "docID": "EP/K00042X/1",
+        "weight": 0.15461538461538
+      },
+      {
+        "docID": "EP/H022236/1",
+        "weight": 0.32797619047619
+      },
+      {
+        "docID": "EP/J003247/1",
+        "weight": 0.36569343065693
+      },
+      {
+        "docID": "EP/K021788/1",
+        "weight": 0.42922077922078
+      },
+      {
+        "docID": "EP/K040057/1",
+        "weight": 0.42720588235294
+      },
+      {
+        "docID": "EP/H010432/1",
+        "weight": 0.14239130434783
+      },
+      {
+        "docID": "EP/J001627/1",
+        "weight": 0.23630573248408
+      },
+      {
+        "docID": "EP/J000086/1",
+        "weight": 0.15086705202312
+      },
+      {
+        "docID": "EP/J016748/1",
+        "weight": 0.45208333333333
+      },
+      {
+        "docID": "EP/I01490X/1",
+        "weight": 0.16193548387097
+      },
+      {
+        "docID": "EP/F00897X/1",
+        "weight": 0.14539473684211
+      },
+      {
+        "docID": "EP/K019392/1",
+        "weight": 0.26209150326797
+      }
+    ],
+    [
+      {
+        "docID": "EP/F500084/1",
+        "weight": 0.6775
+      },
+      {
+        "docID": "EP/F02827X/1",
+        "weight": 0.63153846153846
+      },
+      {
+        "docID": "EP/G061688/1",
+        "weight": 0.53369565217391
+      },
+      {
+        "docID": "EP/I038845/1",
+        "weight": 0.53229166666667
+      },
+      {
+        "docID": "EP/J019712/1",
+        "weight": 0.6646017699115
+      },
+      {
+        "docID": "EP/F501374/1",
+        "weight": 0.60333333333333
+      },
+      {
+        "docID": "EP/E501680/1",
+        "weight": 0.82698412698413
+      },
+      {
+        "docID": "EP/E501214/1",
+        "weight": 0.62142857142857
+      },
+      {
+        "docID": "EP/I013504/2",
+        "weight": 0.69015151515152
+      }
+    ],
+    [
+      {
+        "docID": "EP/K026232/1",
+        "weight": 0.40164835164835
+      },
+      {
+        "docID": "EP/H016872/1",
+        "weight": 0.56408839779006
+      },
+      {
+        "docID": "EP/G062331/1",
+        "weight": 0.5680412371134
+      },
+      {
+        "docID": "EP/J007951/1",
+        "weight": 0.5448
+      },
+      {
+        "docID": "EP/H006419/1",
+        "weight": 0.26111111111111
+      },
+      {
+        "docID": "EP/H000488/1",
+        "weight": 0.35116279069767
+      },
+      {
+        "docID": "EP/I00193X/1",
+        "weight": 0.4855
+      },
+      {
+        "docID": "EP/G030634/1",
+        "weight": 0.47339901477833
+      },
+      {
+        "docID": "EP/G035202/1",
+        "weight": 0.26350364963504
+      },
+      {
+        "docID": "EP/F041470/1",
+        "weight": 0.66496350364964
+      },
+      {
+        "docID": "EP/F041128/1",
+        "weight": 0.74525547445255
+      },
+      {
+        "docID": "EP/H02364X/1",
+        "weight": 0.2463687150838
+      },
+      {
+        "docID": "EP/F040784/1",
+        "weight": 0.71605839416058
+      },
+      {
+        "docID": "EP/H037853/1",
+        "weight": 0.43125
+      },
+      {
+        "docID": "EP/J009814/1",
+        "weight": 0.36379310344828
+      },
+      {
+        "docID": "EP/J003263/1",
+        "weight": 0.44051724137931
+      },
+      {
+        "docID": "EP/H020055/1",
+        "weight": 0.33965517241379
+      },
+      {
+        "docID": "EP/J000396/1",
+        "weight": 0.30176991150442
+      },
+      {
+        "docID": "EP/H052089/1",
+        "weight": 0.29834710743802
+      }
+    ],
+    [
+      {
+        "docID": "EP/I013512/1",
+        "weight": 0.43623188405797
+      },
+      {
+        "docID": "EP/K014293/1",
+        "weight": 0.32314049586777
+      },
+      {
+        "docID": "EP/K015796/1",
+        "weight": 0.32016806722689
+      },
+      {
+        "docID": "EP/I00680X/1",
+        "weight": 0.46577540106952
+      },
+      {
+        "docID": "EP/L010534/1",
+        "weight": 0.3247619047619
+      },
+      {
+        "docID": "EP/E051847/1",
+        "weight": 0.42228915662651
+      },
+      {
+        "docID": "EP/J010766/1",
+        "weight": 0.48389261744966
+      },
+      {
+        "docID": "EP/J007463/1",
+        "weight": 0.35943396226415
+      },
+      {
+        "docID": "EP/I028757/1",
+        "weight": 0.61823529411765
+      },
+      {
+        "docID": "EP/H009744/1",
+        "weight": 0.32651515151515
+      },
+      {
+        "docID": "EP/I011811/1",
+        "weight": 0.36299212598425
+      },
+      {
+        "docID": "EP/K006193/1",
+        "weight": 0.3260162601626
+      },
+      {
+        "docID": "EP/H022031/1",
+        "weight": 0.33381642512077
+      },
+      {
+        "docID": "EP/H01294X/2",
+        "weight": 0.2830985915493
+      },
+      {
+        "docID": "EP/G031975/1",
+        "weight": 0.42967032967033
+      },
+      {
+        "docID": "EP/J017205/1",
+        "weight": 0.2828125
+      }
+    ],
+    [
+      {
+        "docID": "EP/H018190/1",
+        "weight": 0.28112244897959
+      },
+      {
+        "docID": "EP/J019747/1",
+        "weight": 0.37888888888889
+      },
+      {
+        "docID": "EP/G033870/1",
+        "weight": 0.57328244274809
+      },
+      {
+        "docID": "EP/H012907/1",
+        "weight": 0.3027397260274
+      },
+      {
+        "docID": "EP/K008781/1",
+        "weight": 0.41209677419355
+      },
+      {
+        "docID": "EP/J007676/1",
+        "weight": 0.44720812182741
+      },
+      {
+        "docID": "EP/J011347/1",
+        "weight": 0.28681318681319
+      },
+      {
+        "docID": "EP/I013601/1",
+        "weight": 0.37482993197279
+      },
+      {
+        "docID": "EP/G062501/1",
+        "weight": 0.39078014184397
+      },
+      {
+        "docID": "EP/I038853/1",
+        "weight": 0.32535211267606
+      },
+      {
+        "docID": "EP/K029746/1",
+        "weight": 0.41937172774869
+      },
+      {
+        "docID": "EP/G036659/1",
+        "weight": 0.62835820895522
+      },
+      {
+        "docID": "EP/K016857/1",
+        "weight": 0.4218045112782
+      },
+      {
+        "docID": "EP/J007595/1",
+        "weight": 0.29145299145299
+      },
+      {
+        "docID": "EP/K038125/1",
+        "weight": 0.44031413612565
+      },
+      {
+        "docID": "EP/G05536X/1",
+        "weight": 0.3828025477707
+      },
+      {
+        "docID": "EP/J002356/1",
+        "weight": 0.41851851851852
+      }
+    ],
+    [
+      {
+        "docID": "EP/I005102/1",
+        "weight": 0.23727810650888
+      },
+      {
+        "docID": "EP/G033935/1",
+        "weight": 0.26965517241379
+      },
+      {
+        "docID": "EP/I006583/1",
+        "weight": 0.25572916666667
+      },
+      {
+        "docID": "EP/I005102/2",
+        "weight": 0.26094674556213
+      },
+      {
+        "docID": "EP/G043507/1",
+        "weight": 0.27897727272727
+      },
+      {
+        "docID": "EP/L000776/1",
+        "weight": 0.3078313253012
+      },
+      {
+        "docID": "EP/K009788/1",
+        "weight": 0.31666666666667
+      },
+      {
+        "docID": "EP/K030469/1",
+        "weight": 0.335
+      },
+      {
+        "docID": "EP/G009635/1",
+        "weight": 0.28513513513514
+      },
+      {
+        "docID": "EP/H023631/1",
+        "weight": 0.33405797101449
+      },
+      {
+        "docID": "EP/I030328/1",
+        "weight": 0.22830188679245
+      },
+      {
+        "docID": "EP/K017500/1",
+        "weight": 0.45307262569832
+      },
+      {
+        "docID": "EP/J012106/1",
+        "weight": 0.33448275862069
+      },
+      {
+        "docID": "EP/G050821/1",
+        "weight": 0.40914634146341
+      },
+      {
+        "docID": "EP/H012354/1",
+        "weight": 0.30579710144928
+      }
+    ],
+    [
+      {
+        "docID": "EP/F033370/1",
+        "weight": 0.40703125
+      },
+      {
+        "docID": "EP/F033702/1",
+        "weight": 0.39140625
+      }
+    ],
+    [
+      {
+        "docID": "EP/H027408/2",
+        "weight": 0.48769230769231
+      },
+      {
+        "docID": "EP/J010383/1",
+        "weight": 0.48962962962963
+      },
+      {
+        "docID": "EP/I037512/1",
+        "weight": 0.57826086956522
+      },
+      {
+        "docID": "EP/J008427/1",
+        "weight": 0.3
+      },
+      {
+        "docID": "EP/J014338/1",
+        "weight": 0.21375
+      },
+      {
+        "docID": "EP/J017108/1",
+        "weight": 0.33786982248521
+      },
+      {
+        "docID": "EP/I034750/1",
+        "weight": 0.43968253968254
+      },
+      {
+        "docID": "EP/J018805/1",
+        "weight": 0.2945652173913
+      },
+      {
+        "docID": "EP/K024272/1",
+        "weight": 0.39139072847682
+      },
+      {
+        "docID": "EP/I032916/1",
+        "weight": 0.4373417721519
+      },
+      {
+        "docID": "EP/H050442/1",
+        "weight": 0.50797101449275
+      },
+      {
+        "docID": "EP/G015635/1",
+        "weight": 0.22017543859649
+      },
+      {
+        "docID": "EP/J002607/1",
+        "weight": 0.33391812865497
+      },
+      {
+        "docID": "EP/H028056/1",
+        "weight": 0.38247422680412
+      },
+      {
+        "docID": "EP/G069840/1",
+        "weight": 0.22045454545455
+      },
+      {
+        "docID": "EP/F069421/1",
+        "weight": 0.21711711711712
+      },
+      {
+        "docID": "EP/K015206/1",
+        "weight": 0.38208092485549
+      }
+    ]
+  ],
+  "topicsSimilarities": [
+    [
+      1,
+      0.25443030467019,
+      0.37435021977867,
+      0.25240580338969,
+      0.11192480608297,
+      0.045080640853159,
+      0.055648522468375,
+      0.13438627693318,
+      0.23804115644987,
+      0.13689587702962,
+      0.023635133336856,
+      0.24535888240493,
+      0.27732045010081,
+      0.15356615516417,
+      0.10258917220054,
+      0.3016430460537,
+      0.050755298476563,
+      0.083442407141069,
+      0.012197368078351,
+      0.25702648467395,
+      0.18328848228392,
+      0.026706200290349,
+      0.28066574596208,
+      0.14393377857282,
+      0.036081248880153,
+      0.200186895758,
+      0.079063407958858,
+      0.32142788132371,
+      0.032387810286185,
+      0.32845022253592
+    ],
+    [
+      0.25443030467019,
+      1,
+      0.32701044668605,
+      0.14627949943838,
+      0.10770883978592,
+      0.038204898364753,
+      0.06068316611716,
+      0.16863705006761,
+      0.12151301183111,
+      0.10806592490923,
+      0.017846990390047,
+      0.19472400662224,
+      0.14372134380271,
+      0.094076033289166,
+      0.10810893531184,
+      0.12166976509856,
+      0.11121204389953,
+      0.10801347608954,
+      0.029688166419292,
+      0.19249507922764,
+      0.21359635181052,
+      0.10355522493004,
+      0.14659774522726,
+      0.10616768681393,
+      0.061237867867554,
+      0.17804296558084,
+      0.086071574209418,
+      0.16047143297513,
+      0.10279421208205,
+      0.21306773826413
+    ],
+    [
+      0.37435021977867,
+      0.32701044668605,
+      1,
+      0.12367776976257,
+      0.12308713618859,
+      0.04031430255605,
+      0.050602614908582,
+      0.15573015653907,
+      0.12508051928659,
+      0.11446757056443,
+      0.061244937971871,
+      0.17047730051197,
+      0.12218275736418,
+      0.091678134498921,
+      0.1078527919385,
+      0.15659061576624,
+      0.10694724488754,
+      0.074487006977848,
+      0.033567062525865,
+      0.31181151188446,
+      0.19671326335457,
+      0.12433376661469,
+      0.13441027276824,
+      0.069394433635111,
+      0.050123338754553,
+      0.15299680127913,
+      0.10753474939423,
+      0.15950109840765,
+      0.077617215640833,
+      0.1859255755561
+    ],
+    [
+      0.25240580338969,
+      0.14627949943838,
+      0.12367776976257,
+      1,
+      0.15200283385821,
+      0.052703448594178,
+      0.056487865424711,
+      0.13239474812629,
+      0.21635136661369,
+      0.18593630494922,
+      0.077800904786756,
+      0.25809228000257,
+      0.15427250395427,
+      0.19207458631772,
+      0.34294014394365,
+      0.24133027610771,
+      0.16142937657844,
+      0.11590233784422,
+      0.041078483653376,
+      0.18650404812075,
+      0.13533962803859,
+      0.08495335919515,
+      0.23934263607036,
+      0.21620394193557,
+      0.063018017182266,
+      0.27682161909193,
+      0.099519796024626,
+      0.23905139929072,
+      0.1284926724405,
+      0.31726258276887
+    ],
+    [
+      0.11192480608297,
+      0.10770883978592,
+      0.12308713618859,
+      0.15200283385821,
+      1,
+      0.21654714196152,
+      0.22279242874833,
+      0.16294243557845,
+      0.24257555754653,
+      0.080076316362953,
+      0.091793862384952,
+      0.1582010227235,
+      0.12420388348308,
+      0.11008217780133,
+      0.17484778165927,
+      0.12718274577031,
+      0.077171570044501,
+      0.19133916274872,
+      0.098548889551785,
+      0.10318115643527,
+      0.089931374356587,
+      0.066953025698711,
+      0.24789616499979,
+      0.13469550527501,
+      0.28003810322731,
+      0.18434775203262,
+      0.30268489577702,
+      0.35680529430299,
+      0.19574617390648,
+      0.13142215567701
+    ],
+    [
+      0.045080640853159,
+      0.038204898364753,
+      0.04031430255605,
+      0.052703448594178,
+      0.21654714196152,
+      1,
+      0.180726053396,
+      0.052921339002846,
+      0.045204197573823,
+      0.029222267200554,
+      0.0309849986968,
+      0.054390427335989,
+      0.063997159692464,
+      0.08746056637461,
+      0.048954927003907,
+      0.037144016662952,
+      0.033971602724914,
+      0.20285660217501,
+      0.1627371526628,
+      0.032626075385682,
+      0.060827323769923,
+      0.034396818121117,
+      0.10874798528448,
+      0.058912166228282,
+      0.23397108687807,
+      0.042019121548032,
+      0.2993576931312,
+      0.057067784319598,
+      0.11031650989412,
+      0.055609885229024
+    ],
+    [
+      0.055648522468375,
+      0.06068316611716,
+      0.050602614908582,
+      0.056487865424711,
+      0.22279242874833,
+      0.180726053396,
+      1,
+      0.054673983307292,
+      0.068887356165507,
+      0.032810562710391,
+      0.055146366853777,
+      0.062161456704645,
+      0.12133555481899,
+      0.041429538938683,
+      0.034310737126061,
+      0.039733505671477,
+      0.040287569306639,
+      0.12545573417878,
+      0.049317509101718,
+      0.038246771122914,
+      0.056739182442211,
+      0.027775172456686,
+      0.34111486998785,
+      0.055153012890421,
+      0.2994011106045,
+      0.055636021434226,
+      0.28007774200003,
+      0.077146412000628,
+      0.10980892436888,
+      0.042482103491437
+    ],
+    [
+      0.13438627693318,
+      0.16863705006761,
+      0.15573015653907,
+      0.13239474812629,
+      0.16294243557845,
+      0.052921339002846,
+      0.054673983307292,
+      1,
+      0.12779371921574,
+      0.13050200998609,
+      0.026787861625734,
+      0.18158396084847,
+      0.095513177805011,
+      0.10731301066599,
+      0.062677873308704,
+      0.13418532350283,
+      0.093074887324452,
+      0.086220326258021,
+      0.016524007741336,
+      0.087275226317544,
+      0.094101407978374,
+      0.44811660270122,
+      0.16690277999791,
+      0.10437661652751,
+      0.072169550712035,
+      0.11585387260834,
+      0.10290878390817,
+      0.16828615924657,
+      0.10098980759957,
+      0.1910095409206
+    ],
+    [
+      0.23804115644987,
+      0.12151301183111,
+      0.12508051928659,
+      0.21635136661369,
+      0.24257555754653,
+      0.045204197573823,
+      0.068887356165507,
+      0.12779371921574,
+      1,
+      0.066929872504268,
+      0.025170804115064,
+      0.20560345862168,
+      0.19303355556582,
+      0.10118781612561,
+      0.35156195959274,
+      0.12843498190149,
+      0.076296350478219,
+      0.097721621233555,
+      0.025236294139653,
+      0.14426981064576,
+      0.10472751266341,
+      0.1248538564911,
+      0.33497434845608,
+      0.10094079289279,
+      0.064912655580962,
+      0.29317824275606,
+      0.12466832255531,
+      0.43123878275661,
+      0.1159423528902,
+      0.20338847604471
+    ],
+    [
+      0.13689587702962,
+      0.10806592490923,
+      0.11446757056443,
+      0.18593630494922,
+      0.080076316362953,
+      0.029222267200554,
+      0.032810562710391,
+      0.13050200998609,
+      0.066929872504268,
+      1,
+      0.047035233679065,
+      0.184642103372,
+      0.09311815205479,
+      0.14193264447927,
+      0.11829786067753,
+      0.11843413852458,
+      0.13284818063773,
+      0.1220939685673,
+      0.029780068865943,
+      0.052808367565073,
+      0.14720602113889,
+      0.027233617577379,
+      0.13654184423757,
+      0.083451416697973,
+      0.052336181607741,
+      0.14279709956697,
+      0.04474587040948,
+      0.15282271467716,
+      0.095943264423321,
+      0.097544616158469
+    ],
+    [
+      0.023635133336856,
+      0.017846990390047,
+      0.061244937971871,
+      0.077800904786756,
+      0.091793862384952,
+      0.0309849986968,
+      0.055146366853777,
+      0.026787861625734,
+      0.025170804115064,
+      0.047035233679065,
+      1,
+      0.042017143677636,
+      0.017492252567589,
+      0.031868421821053,
+      0.0092854377172231,
+      0.023807313744416,
+      0.0051769161232109,
+      0.05434633694476,
+      0.0464452658607,
+      0.027864193529516,
+      0.046522458861341,
+      0.017643626992807,
+      0.038395610744338,
+      0.054248701520823,
+      0.013465103465039,
+      0.034242308172611,
+      0.05240588576764,
+      0.033817865682445,
+      0.0036163769237726,
+      0.030881563006688
+    ],
+    [
+      0.24535888240493,
+      0.19472400662224,
+      0.17047730051197,
+      0.25809228000257,
+      0.1582010227235,
+      0.054390427335989,
+      0.062161456704645,
+      0.18158396084847,
+      0.20560345862168,
+      0.184642103372,
+      0.042017143677636,
+      1,
+      0.19436991248618,
+      0.10721625421399,
+      0.12061807140015,
+      0.1302711083072,
+      0.10014802683692,
+      0.11001044606588,
+      0.02417563156583,
+      0.1403112983747,
+      0.096313770546386,
+      0.19988648101967,
+      0.18538182727248,
+      0.18880937558057,
+      0.076616992165253,
+      0.31372372136414,
+      0.11644358875836,
+      0.25649726642349,
+      0.13156789456489,
+      0.21869731128772
+    ],
+    [
+      0.27732045010081,
+      0.14372134380271,
+      0.12218275736418,
+      0.15427250395427,
+      0.12420388348308,
+      0.063997159692464,
+      0.12133555481899,
+      0.095513177805011,
+      0.19303355556582,
+      0.09311815205479,
+      0.017492252567589,
+      0.19436991248618,
+      1,
+      0.061509192723457,
+      0.063128843812076,
+      0.10010842729455,
+      0.076804851872566,
+      0.094957123353632,
+      0.091469171600996,
+      0.10331702976256,
+      0.17725853059905,
+      0.056866109100165,
+      0.19267085466433,
+      0.067021941124609,
+      0.087074024810886,
+      0.2640154152397,
+      0.098349760131339,
+      0.41932967713874,
+      0.077817526757615,
+      0.19084058786297
+    ],
+    [
+      0.15356615516417,
+      0.094076033289166,
+      0.091678134498921,
+      0.19207458631772,
+      0.11008217780133,
+      0.08746056637461,
+      0.041429538938683,
+      0.10731301066599,
+      0.10118781612561,
+      0.14193264447927,
+      0.031868421821053,
+      0.10721625421399,
+      0.061509192723457,
+      1,
+      0.15499852189999,
+      0.22618122807049,
+      0.1043052004575,
+      0.29193036961514,
+      0.063266496190795,
+      0.092605907477546,
+      0.12790797780048,
+      0.14678942500388,
+      0.16990683120438,
+      0.062820056403862,
+      0.053243147126821,
+      0.099528746287282,
+      0.089589238510926,
+      0.10740413891502,
+      0.18770177088274,
+      0.11874141713203
+    ],
+    [
+      0.10258917220054,
+      0.10810893531184,
+      0.1078527919385,
+      0.34294014394365,
+      0.17484778165927,
+      0.048954927003907,
+      0.034310737126061,
+      0.062677873308704,
+      0.35156195959274,
+      0.11829786067753,
+      0.0092854377172231,
+      0.12061807140015,
+      0.063128843812076,
+      0.15499852189999,
+      1,
+      0.22204134647875,
+      0.047856842750795,
+      0.10488114462044,
+      0.070171515987025,
+      0.47698192467987,
+      0.08939861368518,
+      0.08843939728425,
+      0.1630232496584,
+      0.038219333632038,
+      0.035731741882827,
+      0.12497768986484,
+      0.09947145005439,
+      0.20134520615058,
+      0.077788906723228,
+      0.23842949913329
+    ],
+    [
+      0.3016430460537,
+      0.12166976509856,
+      0.15659061576624,
+      0.24133027610771,
+      0.12718274577031,
+      0.037144016662952,
+      0.039733505671477,
+      0.13418532350283,
+      0.12843498190149,
+      0.11843413852458,
+      0.023807313744416,
+      0.1302711083072,
+      0.10010842729455,
+      0.22618122807049,
+      0.22204134647875,
+      1,
+      0.11649277695603,
+      0.10140296164728,
+      0.019301653595699,
+      0.16771264875376,
+      0.075790092531169,
+      0.086485530577964,
+      0.13799392511914,
+      0.069159372617523,
+      0.055758291162274,
+      0.14664931120878,
+      0.068527903570577,
+      0.16773595396944,
+      0.10074268493,
+      0.18299687557014
+    ],
+    [
+      0.050755298476563,
+      0.11121204389953,
+      0.10694724488754,
+      0.16142937657844,
+      0.077171570044501,
+      0.033971602724914,
+      0.040287569306639,
+      0.093074887324452,
+      0.076296350478219,
+      0.13284818063773,
+      0.0051769161232109,
+      0.10014802683692,
+      0.076804851872566,
+      0.1043052004575,
+      0.047856842750795,
+      0.11649277695603,
+      1,
+      0.11771054855096,
+      0.045813307632454,
+      0.074589097910657,
+      0.053295551249267,
+      0.053691064195089,
+      0.10075082326709,
+      0.13106329824675,
+      0.048505677232704,
+      0.12993146192725,
+      0.05005260402453,
+      0.10304271241463,
+      0.14254778395201,
+      0.15060355986915
+    ],
+    [
+      0.083442407141069,
+      0.10801347608954,
+      0.074487006977848,
+      0.11590233784422,
+      0.19133916274872,
+      0.20285660217501,
+      0.12545573417878,
+      0.086220326258021,
+      0.097721621233555,
+      0.1220939685673,
+      0.05434633694476,
+      0.11001044606588,
+      0.094957123353632,
+      0.29193036961514,
+      0.10488114462044,
+      0.10140296164728,
+      0.11771054855096,
+      1,
+      0.14273595546844,
+      0.065164360780082,
+      0.12362755697834,
+      0.048763663920976,
+      0.25330833524475,
+      0.044570275834285,
+      0.12967453153848,
+      0.078712710568629,
+      0.19504256807186,
+      0.12652870238914,
+      0.893893435962,
+      0.086308371287038
+    ],
+    [
+      0.012197368078351,
+      0.029688166419292,
+      0.033567062525865,
+      0.041078483653376,
+      0.098548889551785,
+      0.1627371526628,
+      0.049317509101718,
+      0.016524007741336,
+      0.025236294139653,
+      0.029780068865943,
+      0.0464452658607,
+      0.02417563156583,
+      0.091469171600996,
+      0.063266496190795,
+      0.070171515987025,
+      0.019301653595699,
+      0.045813307632454,
+      0.14273595546844,
+      1,
+      0.033859961637864,
+      0.067969719072332,
+      0.014443493984697,
+      0.094630345809092,
+      0.064240782318319,
+      0.10015142727083,
+      0.041414102406073,
+      0.12462462957181,
+      0.036455205136835,
+      0.060492242895016,
+      0.024676182095619
+    ],
+    [
+      0.25702648467395,
+      0.19249507922764,
+      0.31181151188446,
+      0.18650404812075,
+      0.10318115643527,
+      0.032626075385682,
+      0.038246771122914,
+      0.087275226317544,
+      0.14426981064576,
+      0.052808367565073,
+      0.027864193529516,
+      0.1403112983747,
+      0.10331702976256,
+      0.092605907477546,
+      0.47698192467987,
+      0.16771264875376,
+      0.074589097910657,
+      0.065164360780082,
+      0.033859961637864,
+      1,
+      0.10010806135509,
+      0.076602943762552,
+      0.14920972797572,
+      0.06645509888141,
+      0.037679980563494,
+      0.12747350815603,
+      0.064829086625239,
+      0.17005830722458,
+      0.072580921804033,
+      0.23698371621071
+    ],
+    [
+      0.18328848228392,
+      0.21359635181052,
+      0.19671326335457,
+      0.13533962803859,
+      0.089931374356587,
+      0.060827323769923,
+      0.056739182442211,
+      0.094101407978374,
+      0.10472751266341,
+      0.14720602113889,
+      0.046522458861341,
+      0.096313770546386,
+      0.17725853059905,
+      0.12790797780048,
+      0.08939861368518,
+      0.075790092531169,
+      0.053295551249267,
+      0.12362755697834,
+      0.067969719072332,
+      0.10010806135509,
+      1,
+      0.08816720768654,
+      0.12955740671644,
+      0.088608458819764,
+      0.082138965136623,
+      0.092467078906552,
+      0.075872252357169,
+      0.10745172266151,
+      0.095546893856675,
+      0.095458681845554
+    ],
+    [
+      0.026706200290349,
+      0.10355522493004,
+      0.12433376661469,
+      0.08495335919515,
+      0.066953025698711,
+      0.034396818121117,
+      0.027775172456686,
+      0.44811660270122,
+      0.1248538564911,
+      0.027233617577379,
+      0.017643626992807,
+      0.19988648101967,
+      0.056866109100165,
+      0.14678942500388,
+      0.08843939728425,
+      0.086485530577964,
+      0.053691064195089,
+      0.048763663920976,
+      0.014443493984697,
+      0.076602943762552,
+      0.08816720768654,
+      1,
+      0.10958206704855,
+      0.084982878342564,
+      0.048709598648277,
+      0.085443118377802,
+      0.061332609677664,
+      0.12306575907049,
+      0.037826883241922,
+      0.1729783333413
+    ],
+    [
+      0.28066574596208,
+      0.14659774522726,
+      0.13441027276824,
+      0.23934263607036,
+      0.24789616499979,
+      0.10874798528448,
+      0.34111486998785,
+      0.16690277999791,
+      0.33497434845608,
+      0.13654184423757,
+      0.038395610744338,
+      0.18538182727248,
+      0.19267085466433,
+      0.16990683120438,
+      0.1630232496584,
+      0.13799392511914,
+      0.10075082326709,
+      0.25330833524475,
+      0.094630345809092,
+      0.14920972797572,
+      0.12955740671644,
+      0.10958206704855,
+      1,
+      0.16041292077878,
+      0.17638894235527,
+      0.24440697490516,
+      0.23419745383737,
+      0.24668289303349,
+      0.27552446150119,
+      0.19317101760342
+    ],
+    [
+      0.14393377857282,
+      0.10616768681393,
+      0.069394433635111,
+      0.21620394193557,
+      0.13469550527501,
+      0.058912166228282,
+      0.055153012890421,
+      0.10437661652751,
+      0.10094079289279,
+      0.083451416697973,
+      0.054248701520823,
+      0.18880937558057,
+      0.067021941124609,
+      0.062820056403862,
+      0.038219333632038,
+      0.069159372617523,
+      0.13106329824675,
+      0.044570275834285,
+      0.064240782318319,
+      0.06645509888141,
+      0.088608458819764,
+      0.084982878342564,
+      0.16041292077878,
+      1,
+      0.066237319469533,
+      0.32344867509594,
+      0.064796974565422,
+      0.1454513395072,
+      0.053310172371223,
+      0.15057130232488
+    ],
+    [
+      0.036081248880153,
+      0.061237867867554,
+      0.050123338754553,
+      0.063018017182266,
+      0.28003810322731,
+      0.23397108687807,
+      0.2994011106045,
+      0.072169550712035,
+      0.064912655580962,
+      0.052336181607741,
+      0.013465103465039,
+      0.076616992165253,
+      0.087074024810886,
+      0.053243147126821,
+      0.035731741882827,
+      0.055758291162274,
+      0.048505677232704,
+      0.12967453153848,
+      0.10015142727083,
+      0.037679980563494,
+      0.082138965136623,
+      0.048709598648277,
+      0.17638894235527,
+      0.066237319469533,
+      1,
+      0.072914383029173,
+      0.31434592635525,
+      0.11258457414378,
+      0.16144958099268,
+      0.059015748454383
+    ],
+    [
+      0.200186895758,
+      0.17804296558084,
+      0.15299680127913,
+      0.27682161909193,
+      0.18434775203262,
+      0.042019121548032,
+      0.055636021434226,
+      0.11585387260834,
+      0.29317824275606,
+      0.14279709956697,
+      0.034242308172611,
+      0.31372372136414,
+      0.2640154152397,
+      0.099528746287282,
+      0.12497768986484,
+      0.14664931120878,
+      0.12993146192725,
+      0.078712710568629,
+      0.041414102406073,
+      0.12747350815603,
+      0.092467078906552,
+      0.085443118377802,
+      0.24440697490516,
+      0.32344867509594,
+      0.072914383029173,
+      1,
+      0.080396494419145,
+      0.25609095769387,
+      0.10297157094052,
+      0.23863395832817
+    ],
+    [
+      0.079063407958858,
+      0.086071574209418,
+      0.10753474939423,
+      0.099519796024626,
+      0.30268489577702,
+      0.2993576931312,
+      0.28007774200003,
+      0.10290878390817,
+      0.12466832255531,
+      0.04474587040948,
+      0.05240588576764,
+      0.11644358875836,
+      0.098349760131339,
+      0.089589238510926,
+      0.09947145005439,
+      0.068527903570577,
+      0.05005260402453,
+      0.19504256807186,
+      0.12462462957181,
+      0.064829086625239,
+      0.075872252357169,
+      0.061332609677664,
+      0.23419745383737,
+      0.064796974565422,
+      0.31434592635525,
+      0.080396494419145,
+      1,
+      0.11232870153029,
+      0.19228577666045,
+      0.070408796928403
+    ],
+    [
+      0.32142788132371,
+      0.16047143297513,
+      0.15950109840765,
+      0.23905139929072,
+      0.35680529430299,
+      0.057067784319598,
+      0.077146412000628,
+      0.16828615924657,
+      0.43123878275661,
+      0.15282271467716,
+      0.033817865682445,
+      0.25649726642349,
+      0.41932967713874,
+      0.10740413891502,
+      0.20134520615058,
+      0.16773595396944,
+      0.10304271241463,
+      0.12652870238914,
+      0.036455205136835,
+      0.17005830722458,
+      0.10745172266151,
+      0.12306575907049,
+      0.24668289303349,
+      0.1454513395072,
+      0.11258457414378,
+      0.25609095769387,
+      0.11232870153029,
+      1,
+      0.1436431077596,
+      0.21664563543923
+    ],
+    [
+      0.032387810286185,
+      0.10279421208205,
+      0.077617215640833,
+      0.1284926724405,
+      0.19574617390648,
+      0.11031650989412,
+      0.10980892436888,
+      0.10098980759957,
+      0.1159423528902,
+      0.095943264423321,
+      0.0036163769237726,
+      0.13156789456489,
+      0.077817526757615,
+      0.18770177088274,
+      0.077788906723228,
+      0.10074268493,
+      0.14254778395201,
+      0.893893435962,
+      0.060492242895016,
+      0.072580921804033,
+      0.095546893856675,
+      0.037826883241922,
+      0.27552446150119,
+      0.053310172371223,
+      0.16144958099268,
+      0.10297157094052,
+      0.19228577666045,
+      0.1436431077596,
+      1,
+      0.0919357508643
+    ],
+    [
+      0.32845022253592,
+      0.21306773826413,
+      0.1859255755561,
+      0.31726258276887,
+      0.13142215567701,
+      0.055609885229024,
+      0.042482103491437,
+      0.1910095409206,
+      0.20338847604471,
+      0.097544616158469,
+      0.030881563006688,
+      0.21869731128772,
+      0.19084058786297,
+      0.11874141713203,
+      0.23842949913329,
+      0.18299687557014,
+      0.15060355986915,
+      0.086308371287038,
+      0.024676182095619,
+      0.23698371621071,
+      0.095458681845554,
+      0.1729783333413,
+      0.19317101760342,
+      0.15057130232488,
+      0.059015748454383,
+      0.23863395832817,
+      0.070408796928403,
+      0.21664563543923,
+      0.0919357508643,
+      1
+    ]
+  ]
+}

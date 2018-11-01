@@ -1,0 +1,622 @@
+<!-------------------------------------------------------------------- 
+  
+   Module: index.html 
+  
+   Author: Isidoros Ioannou
+
+   Referencies:Mike Chantler
+
+   Date: 17/11/2016
+
+   What it does: it Implements the applications , loads the data and calls
+   the layout classes
+
+   80% student 20%course
+----------------------------------------------------------------------> 
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Ioannou_Isidoros</title>
+	<script type="text/javascript" src="d3.js"></script>
+	<script type="text/javascript" src="ColtreeRenderer.js"></script>
+	<script type="text/javascript" src="Barchart.js"></script>
+	<script src="packRenderer_v003.js"></script>
+	<script src="wrapTextSvg.js"></script>
+	<script src="UkMap.js"></script>
+	<script type="text/javascript" src="agglomerativeClustering_v001.js"></script>
+	<script src="pieRendererM.js"></script>
+	<script type="text/javascript" src="dataHelperFunctions.js"></script>
+	<script src="http://d3js.org/topojson.v1.min.js"></script>
+	<script type="text/javascript" src="findAllTopicsOfEachGroup_v001.js"></script>
+	<link rel="stylesheet" type="text/css" href="projectStyle.css">
+</head>
+
+<body>
+	<h1>D3 Project</h1>
+	<p> <button id="userButton" onclick =" changeCSS('projectStyle.css',0);showOnClick('layoutGroup1');">Early Career Academics</button>
+		<button id="userButton" onclick =" changeCSS('projectStyle.css',0);processData2(); showOnClick('layoutGroup2');">General Public</button>
+		<button id="userButton" onclick = "changeCSS('projectStyleIm.css',0);processData3();showOnClick('layoutGroup3');">Visual Impaired</button>
+	</p>	
+	<div id="layoutGroup1">
+	<h2>UK Map</h2>
+	<div  style="width: 650px; height: 750px;" id = "mapDIV"></div>
+	<div id="userUpdateDIV"></div>
+	<div style="width: 800px; height: 800px;" id = "barChartDIV">
+		<h2> Research Areas</h2>
+	</div>
+	<div id="divPack1">
+		<h2> Topic Data </h2>
+	</div>
+	</div>
+	<div id="layoutGroup2">
+	<h2> Organisation Tree </h2>  
+	<div id="treeDIV"> </div> 
+	<div style="width: 800px; height: 800px;" id ="barChartDIV2">
+		<h2> Research Areas</h2>
+	</div>
+	<div id = "pieChartDIV">
+		<h2>Funds Distribution</h2>
+	</div> 
+	 </div> 
+	<div id = "layoutGroup3"> 
+		<h2> Organisation Tree </h2>  
+	<div id="treeDIV1"> </div> 
+	<div style="width: 800px; height: 800px;" id ="barChartDIV3">
+		<h2> Research Areas</h2>
+	</div>
+	<div id = "pieChartDIV1">
+		<h2>Funds Distribution</h2>
+	</div> 
+	</div> 
+	
+<script type="text/javascript">
+"use strict"
+var topicModelData = {};
+var grantsData={};
+var UkMapData={};
+var researchAreas= [];
+var nLeaves;
+var hierarchy = {};
+var linkageTable = [];
+var topicsList= [];
+var newTopicsArray={};
+//Create the renderers
+var userUpdateDiv = d3.select("#userUpdateDIV");
+var hlp = grantAndTopicDataHelperFunctions();
+var m1= setupMapRenderer("#mapDIV");
+var pr1 = setUpPackRenderer("#divPack1");
+var bc1 = setupBarchartRenderer1("#barChartDIV");
+var bc2 =setupBarRenderer1("#barChartDIV2");
+var tr2=setupTreeRenderer1("#treeDIV");
+var pc2=setupPieRenderer1("#pieChartDIV");
+var pc3=piechart("#pieChartDIV1");
+var bc3=barchart("#barChartDIV3");
+var tr3=treeRenderer("#treeDIV1");
+var div1 = d3.select("#barChartDIV").insert("span" , "svg")	
+    .attr("class", "tooltip")				
+    .style("opacity", 0);
+var div2 = d3.select("#barChartDIV2").insert("span" , "svg")	
+    .attr("class", "tooltip")		
+    .style("opacity", 0);
+var div3 = d3.select("#barChartDIV3").insert("span" , "svg")	
+    .attr("class", "tooltip")		
+    .style("opacity", 0);
+//============== Load all the Data ============================
+
+var urlTopicData = "tModelArrayFormat.json";	
+var urlGrantData = "grantsData.json";
+var urlMapData= "uk.json";
+
+//Load the map Data
+d3.json(urlMapData,function(error,uJsonData){
+	userUpdate("Attempting to load data from :" + urlMapData);
+		if (error) return userUpdate("Failed attepting to load JSON from :" + urlMapData);
+		userUpdate("Map data sucessfully loaded");
+			UkMapData = uJsonData;
+
+	//Load the topic Data
+	d3.json(urlTopicData, function(error, tJsonData) {
+
+		userUpdate("Attempting to load data from :" + urlTopicData);
+		if (error) return userUpdate("Failed attepting to load JSON from :" + urlTopicData);
+		userUpdate("Topic data sucessfully loaded");
+		topicModelData = tJsonData;
+
+
+		//Load the Grants data
+		d3.json(urlGrantData, function(error, gJsonData) {
+			userUpdate("Attempting to load data from :" + urlGrantData);
+			if (error) return userUpdate("Failed attepting to load JSON from :" + urlGrantData);
+			grantsData = gJsonData;
+			userUpdate("Grants data sucessfully loaded");
+				
+
+			processData1();
+		});
+	});
+});
+
+//=================================== FUNCTIONS ==============================
+function processData1(){
+	var clusterInstance = agglomerativeClustering();
+	var linkageTable = clusterInstance.makeLinkageTable(topicModelData.topicsSimilarities);
+	var groups = clusterIntoGroups(6, linkageTable);
+	hierarchy = findAllTopicsOfEachGroupAndCreateHierarchy(groups, linkageTable,topicModelData);
+	hlp.insertOrganisationsIntoGrantsTable(grantsData);	
+	hlp.insertPIpersonsIntoGrantsTable(grantsData);
+	hlp.insertYearPropertyIntoGrants(grantsData);
+	pr1.loadAndRenderDataset(hierarchy,topicsList)	;	
+	researchAreas = hlp.getResearchAreasFromGrants(grantsData);
+	bc1.loadAndRenderDataset(researchAreas);
+	 m1.loadAndRenderDataset(UkMapData);
+}
+
+function processData2(){
+	var treeHierarchy= hlp.createTreeHierarchy(grantsData.organisations);
+    var	researchAreas1 = hlp.getResearchAreasFromGrants(grantsData);
+	tr2.loadAndRenderDataset(treeHierarchy);
+	bc2.loadAndRenderDataset(researchAreas1);
+}
+
+function processData3(){
+	var treeHierarchy= hlp.createTreeHierarchy(grantsData.organisations);
+    var	researchAreas1 = hlp.getResearchAreasFromGrants(grantsData);
+	
+		tr3.loadAndRenderDataset(treeHierarchy);
+	
+	
+		bc3.colour("blue");
+	
+		bc3.overideTooltip(function(d){
+
+					var mean =parseFloat(d.Values.sum/d.Values.grants.length).toFixed(2);
+					var max = d3.max(d.Values.grants,function(d){ return Number(d.Value);});
+					var min = d3.min(d.Values.grants,function(d){ return Number(d.Value);});
+					var median = d3.median(d.Values.grants,function(d){return Number(d.Value);});
+					var html="<h2> Mean: " + mean +"£<br>" +"Max: "+ max +"£<br>" + "Min: "+ min + "£" + "<br>" + "Median:" + median + "£" + "</h2>" ;
+	
+					tooltip(html,div3);
+				})
+		bc3.notOveride(function(d){
+					hideTooltip(div3);
+				})
+
+
+		bc3.overideKey(function(d){
+			return d.ResearchArea ;
+		});
+		
+		bc3.overideScale(function(d){
+			
+			return d.Values.sum;
+		});
+	 
+	 
+	 	bc3.barClickCalback(function(d){
+	 
+	 		var barorg=d.Values.grants.map(function(c){
+	 		return c.organisation;
+	 		});
+	 		tr3.close(barorg);	
+
+	 		 pc3.width(700);
+	     	pc3.height(700);
+	 		pc3.overideArcs(function(d){
+			return d.Values.sum;
+			});
+			pc3.overideLabels(function(d){
+			return d.Year;
+			});
+
+			pc3.callBackClick((function(d){
+
+		  		
+	  		var org = d.data.Values.grants.map(function(t){
+	  			return t.organisation;
+	  		});
+	  		tr3.close(org);
+	  		}));
+	
+
+	 		var bar = d3.select(this);
+	 		var hierarchy = hlp.getSumOfGrantsPerResearchArea(d.Values.grants);
+	 		pc3.callBackOver(function(piedD, i){
+	 			
+	 			bar.style("fill","green");
+	 		})
+	 		pc3.removeCalback(function(piedD,i){
+	 			bar.style("fill","blue");
+	 		})
+	 		pc3.loadAndRenderDataset(hierarchy);
+	 	})
+	  bc3.loadAndRenderDataset(researchAreas1);
+
+	  
+}
+function setupPieRenderer1(div){
+
+	return piechart(div)
+						.callBackClick((function(d){
+
+		  		
+	  					var org = d.data.Values.grants.map(function(t){
+	  					return t.organisation;
+	  						});
+	  		
+	  						tr2.close(org);
+	  					}))
+
+						.overideArcs(function(d){
+						return d.Values.sum;
+						})
+						.overideLabels(function(d){
+						return d.Year;
+						});
+}
+
+function setupBarRenderer1(div){
+
+	return barchart(div)
+						.colour("red")
+	
+						.overideTooltip(function(d){
+
+					var mean =parseFloat(d.Values.sum/d.Values.grants.length).toFixed(2);
+					var max = d3.max(d.Values.grants,function(d){ return Number(d.Value);});
+					var min = d3.min(d.Values.grants,function(d){ return Number(d.Value);});
+					var median = d3.median(d.Values.grants,function(d){return Number(d.Value);});
+					var html="<h3> Mean: " + mean +"£<br>" +"Max: "+ max +"£<br>" + "Min: "+ min + "£" + "<br>" + "Median:" + median + "£" + "</h3>" ;
+	
+					tooltip(html,div2);
+					})
+					.notOveride(function(d){
+					hideTooltip(div2);
+					})
+
+
+	.overideKey(function(d){
+			return d.ResearchArea ;
+		})
+		
+	.overideScale(function(d){
+			
+			return d.Values.sum;
+		})
+	 
+	 
+	 .barClickCalback(function(d){
+	 
+	 	var barorg=d.Values.grants.map(function(c){
+	 		return c.organisation;
+	 	});
+	 	tr2.close(barorg);	
+
+	 	pc2.overideArcs(function(d){
+			return d.Values.sum;
+		});
+		pc2.overideLabels(function(d){
+			return d.Year;
+		});
+
+		pc2.callBackClick((function(d){
+
+		  		
+	  	var org = d.data.Values.grants.map(function(t){
+	  		return t.organisation;
+	  	});
+	  		console.log("org",org);
+	  		tr2.close(org);
+	  	}));
+	
+
+	 	var bar = d3.select(this);
+	 	var hierarchy = hlp.getSumOfGrantsPerResearchArea(d.Values.grants);
+	 	console.log("hierarchy",hierarchy);
+	 	pc2.callBackOver(function(piedD, i){
+	 			
+	 			bar.style("fill","blue");
+	 	})
+	 	pc2.removeCalback(function(piedD,i){
+	 		bar.style("fill","red");
+	 	})
+	 	pc2.loadAndRenderDataset(hierarchy);
+	 });
+}
+
+function setUpPackRenderer(div){
+	//function returns a customised pack renderer
+	return packRenderer(div)
+		.overideClickBehaviour(function(d){
+			var grantss = hlp.getGrantObjsForATopic(d.n, grantsData, topicModelData);
+			
+			
+			bc1.overideKey(function(d){
+				return d.ID;
+			});
+
+			bc1.overideScale(function(d){
+				return d.Value;
+			});
+			bc1.loadAndRenderDataset(grantss);
+			if (!d.children) d3.select("#userUpdateDIV").html(topicInfo(d.n));
+			
+			
+		})
+		.overideLeafLabel(function(d){
+			//if big circle return 3 words
+			if (d.r > 25) {
+				return d.words[1]
+				+" "+d.words[0]
+				+" "+d.words[2];}
+			//else return 1 word
+			else {return d.words[0];}
+			
+		})
+		.overideParentLabel(function(d){return ""})
+		.overideTooltip(function(d){
+			if (d.words) return d.name + " " + d.words;
+			else return d.name;	
+			})
+		.overideHoverAction(function(d){
+
+ 		var	grantss = hlp.getGrantObjsForATopic(d.n, grantsData, topicModelData);
+ 			m1.loadCircles(grantss);
+ 			m1.renderMap();
+		
+		});
+}
+
+function setupMapRenderer(div){
+
+ return map(div)
+ 				.mapClickCalback((function(d){
+		
+		var resPerCountry=[];
+		m1.loadAndRenderCircles(resPerCountry);
+		
+		bc1.overideKey(function(d){
+			return d.ResearchArea ;
+			});
+		
+			bc1.overideScale(function(d){
+			
+			return d.Values.sum;
+			});
+			
+			if(d.id=="ENG"){
+			
+			mapTopicRender("England");
+			resPerCountry = hlp.getResearchAreaPerCountry(grantsData,"England");
+			bc1.loadAndRenderDataset(researchAreas);
+			}
+			else if(d.id =="SCT"){
+			mapTopicRender("Scotland");
+			resPerCountry = hlp.getResearchAreaPerCountry(grantsData,"Scotland");
+			bc1.loadAndRenderDataset(resPerCountry);
+			}	
+			
+			else if(d.id == "NIR"){
+			mapTopicRender("Northern Ireland");
+			resPerCountry = hlp.getResearchAreaPerCountry(grantsData,"Northern Ireland");
+			bc1.loadAndRenderDataset(resPerCountry);
+			}
+			else if(d.id == "IRL"){
+			mapTopicRender("Ireland");
+			resPerCountry = hlp.getResearchAreaPerCountry(grantsData,"Ireland");
+			bc1.loadAndRenderDataset(resPerCountry);	
+			}
+			
+			else {
+			mapTopicRender("Wales");
+			resPerCountry = hlp.getResearchAreaPerCountry(grantsData,"Wales");
+			bc1.loadAndRenderDataset(resPerCountry);
+			}
+		
+	}));
+
+}
+
+function setupBarchartRenderer1(div){
+
+return barchart(div)
+				.colour("red")
+				.overideTooltip(function(d){
+
+					var mean =parseFloat(d.Values.sum/d.Values.grants.length).toFixed(2);
+					var max = d3.max(d.Values.grants,function(d){ return Number(d.Value);});
+					var min = d3.min(d.Values.grants,function(d){ return Number(d.Value);});
+					var median = d3.median(d.Values.grants,function(d){return Number(d.Value);});
+					var html="<h3> Mean: " + mean +"£<br>" +"Max: "+ max +"£<br>" + "Min: "+ min + "£" + "<br>" + "Median:" + median + "£" + "</h3>" ;
+	
+					tooltip(html,div1);
+				})
+				.notOveride(function(d){
+					hideTooltip(div1);
+				})
+				.barClickCalback(function(d){
+
+
+					if ('Values' in d){
+					m1.loadCircles(d.Values.grants);
+					m1.renderMap();
+					console.log("sds", d.Values.grants);
+					topicsList=hlp.getTopicsByGrantsIds(d.Values.grants,topicModelData);
+					pr1.loadAndRenderDataset(hierarchy,topicsList);
+					d3.select("#userUpdateDIV").html(InvestigatorsInfo(d.Values.grants));	
+				}
+			else
+			{
+		m1.loadCircles([d]);
+		m1.renderMap();
+		 topicsList= hlp.getTopicsforGrants(topicModelData,d.ID);
+		pr1.loadAndRenderDataset(hierarchy,topicsList);
+		console.log("d", d);
+	}
+	
+	})
+		
+		.overideKey(function(d){
+			return d.ResearchArea ;
+		})
+		
+		.overideScale(function(d){
+			
+			return d.Values.sum;
+		});
+}
+function setupTreeRenderer1(div){
+
+	return treeRenderer(div) 
+							.addSecondClickCalback(function(d){
+								var treeResearch = hlp.getResearchAreasFromTree(d.depth,d.key,grantsData);
+								var sumPerYear=hlp.getSumOfGrantsFromTree(d.depth,d.key,grantsData);
+		
+							bc2.loadAndRenderDataset(treeResearch);
+		
+	  						
+						pc2.loadAndRenderDataset(sumPerYear);
+
+
+	});
+}
+
+function clusterIntoGroups(minNumberGroups, linkageTable){
+	var topNode = linkageTable.length-1;
+	nLeaves = linkageTable.length+1;
+
+	function expandNodes(nodesToExpand, groups, nLeaves, linkageTable){
+		var nodesRequiringExpansion = [];
+		nodesToExpand.forEach(function(currentNode){
+			if (currentNode >= 0){
+				var index = groups.indexOf(currentNode);
+				groups.splice(index, 1);
+				var g1 = linkageTable[currentNode].cluster1 - nLeaves;
+				var g2 = linkageTable[currentNode].cluster2 - nLeaves;
+				groups.push(g1);
+				groups.push(g2);
+				if (g1>=0) nodesRequiringExpansion.push(g1);
+				if (g2>=0) nodesRequiringExpansion.push(g2);		
+			}
+
+		})
+		return {"groups": groups, "nodesRequiringExpansion": nodesRequiringExpansion}
+	} 
+	var expansion = {"groups": [], "nodesRequiringExpansion": [topNode]}		
+	while (expansion.groups.length < minNumberGroups){	
+		expansion = expandNodes(expansion.nodesRequiringExpansion, expansion.groups, nLeaves, linkageTable)
+	};
+	return expansion.groups;
+}
+
+function userUpdate(message){
+	userUpdateDiv
+		.append("p")
+		.text(message);
+}
+
+function InvestigatorsInfo(grants){
+	var InvestigatosInfo="<h3>Investigators:</h3>"
+
+	grants.forEach(function(grant, index){
+		InvestigatosInfo+="<p style=\"font-size: 0.8em;\">"
+			+"<b>Name :</b> "+grant.PI.Title+", <em>"+grant.PI.Surname+",<em>"+"<b> Grant :</b>"+grant.Title+", </em>,"+grant.organisation.Name+"</p>" 
+	})
+
+	return InvestigatosInfo;
+}
+
+function topicInfo(topicNumber) {
+	//Returns html format info on a Topic given its number (index)
+	var grants = hlp.getGrantObjsForATopic(topicNumber, grantsData, topicModelData);
+	console.log("granys",grants);
+	var grantInfo="<h3>Relevant grants:</h3>"
+	grants.forEach(function(grant, index){
+		grantInfo+="<p style=\"font-size: 0.8em;\">"
+			+grant.ID+" - "
+			+grant.Title+", <em>"
+			+grant.Value+", <em>"
+			+grant.PI.Surname+"</em>, "
+			+grant.organisation.Name
+			+"</p>"
+	})
+	console.log ("\nTopic "+topicNumber+" grants:\n", grants)
+	return "<h3>Topic "
+		+topicNumber
+		+"</h3> <p> "
+		+hlp.wordcloud(topicNumber, topicModelData)
+		+"</p>"
+		+grantInfo
+		
+}
+
+
+function tooltip(html,div){
+
+	div.transition()		
+                .duration(200)		
+                .style("opacity", .9);		
+            div	.html(html)	
+                .style("left", (d3.event.pageX) + "px")		
+                .style("top", (d3.event.pageY - 28) + "px");	
+            
+}
+
+function hideTooltip(div){
+
+			div.transition()		
+                .duration(500)		
+                .style("opacity", 0);	
+
+}
+//fuction used to establish interaction between map and pack
+function mapTopicRender(name){
+
+	var countryGrants = hlp.relatedGrantsofCountry(grantsData,name);
+
+	var countryGrantsID= countryGrants.map(function(cgrant){
+		return cgrant.ID;
+	});
+		var topicNumbers = hlp.getTopicsByGrantsIds(countryGrants,topicModelData);
+
+	pr1.loadAndRenderDataset(hierarchy,topicNumbers);	
+}
+//derived from stackoverflow
+function changeCSS(cssFile, cssLinkIndex) {
+
+    var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+
+    var newlink = document.createElement("link");
+    newlink.setAttribute("rel", "stylesheet");
+    newlink.setAttribute("type", "text/css");
+    newlink.setAttribute("href", cssFile);
+
+    document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+}
+
+//function that enables changing the user layouts once clicked on the buttons
+function showOnClick(element){
+	
+	if(element=='layoutGroup1'){
+		document.getElementById('layoutGroup1').style.display='block';
+		document.getElementById('layoutGroup2').style.display='none';
+		document.getElementById('layoutGroup3').style.display='none';
+	}
+	else if(element=='layoutGroup2'){
+		document.getElementById("layoutGroup1").style.display='none';
+		document.getElementById("layoutGroup2").style.display='block';
+		document.getElementById('layoutGroup3').style.display='none';
+	}
+	else{
+		document.getElementById("layoutGroup3").style.display="block";
+		document.getElementById("layoutGroup1").style.display="none";
+		document.getElementById("layoutGroup2").style.display="none";
+	}
+
+}
+
+
+</script>
+</body>
+</html>
+
